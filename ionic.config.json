@@ -1,0 +1,7 @@
+{
+  "name": "ironman",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
