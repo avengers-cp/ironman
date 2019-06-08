@@ -1,8 +1,8 @@
 {
-  "name": "ironman",
+  "name": "gym-buddy",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Avengers CP",
+  "homepage": "https://github.com/avengers-cp",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -57,5 +57,5 @@
     "tslint": "~5.17.0",
     "typescript": "~3.1.6"
   },
-  "description": "An Ionic project"
+  "description": "A gym training app"
 }

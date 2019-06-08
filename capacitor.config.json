@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "ironman",
+  "appId": "com.avengerscp.ironman",
+  "appName": "Gym Buddy",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www"
