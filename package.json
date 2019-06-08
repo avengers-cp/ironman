@@ -16,7 +16,8 @@
     "deploy:prod:android": "ionic build --prod && npx cap copy && npx cap sync && npx cap open android",
     "deploy:all": "npm run deploy:staging && npm run deploy:prod",
     "sync:staging": "ionic build && npx cap copy && npx cap sync",
-    "sync:prod": "ionic build --prod && npx cap copy && npx cap sync"
+    "sync:prod": "ionic build --prod && npx cap copy && npx cap sync",
+    "setup": "npm install -g ionic firebase-tools && cd functions && npm install && cd ../ && npm install"
   },
   "private": true,
   "dependencies": {
