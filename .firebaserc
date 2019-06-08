@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "gym-buddy-staging"
+    "default": "gym-buddy-staging",
+    "production": "gym-buddy-production"
   }
 }
