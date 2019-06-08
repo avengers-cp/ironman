@@ -9,7 +9,14 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "dev": "firebase use default && ionic serve -c",
+    "deploy:staging": "ionic build && firebase use default && firebase deploy",
+    "deploy:prod": "ionic build --prod && firebase use production && firebase deploy",
+    "deploy:prod:android": "ionic build --prod && npx cap copy && npx cap sync && npx cap open android",
+    "deploy:all": "npm run deploy:staging && npm run deploy:prod",
+    "sync:staging": "ionic build && npx cap copy && npx cap sync",
+    "sync:prod": "ionic build --prod && npx cap copy && npx cap sync"
   },
   "private": true,
   "dependencies": {
