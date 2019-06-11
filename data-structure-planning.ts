@@ -136,3 +136,5 @@ enum EquipmentType {
   FOAM_ROLL = 'foam roll',
   SAND_BAG = 'sand bag'
 }
+
+// exercise types like cardio and weights or free body??
