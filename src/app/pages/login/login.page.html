@@ -1,9 +1,23 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="login-page">
+  <img src="../../../assets/icons/gb-logo.png" class="logo"/>
 
-<ion-content>
+  <form class="gb-form">
+    <ion-item class="gb-form-field">
+      <ion-input type="email" clear-input="true" placeholder="Your email address"></ion-input>
+    </ion-item>
 
+    <ion-item class="gb-form-field password-field">
+      <ion-input type="password" clear-input="true" placeholder="Your password"></ion-input>
+    </ion-item>
+
+    <div class="forgot-password-btn-container">
+      <ion-button type="button" class="forgot-password-btn" fill="clear" size="small">forgot password</ion-button>
+    </div>
+
+    <ion-button type="submit" class="gb-form-submit-btn" shape="round">Login</ion-button>
+  </form>
+
+  <div class="other-buttons">
+    <ion-button type="button" class="create-account-btn" fill="clear" size="small">Create an account</ion-button>
+  </div>
 </ion-content>

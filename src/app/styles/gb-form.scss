@@ -1,0 +1,23 @@
+.gb-form {
+  margin-top: 40px;
+
+  > .gb-form-field {
+    --highlight-height: 0;
+    --inner-border-width: 50%;
+    --border-color: white;
+    --border-radius: 24px;
+    --border-width: 1px;
+    --box-shadow: 0 0 16px 4px rgba(var(--ion-color-medium-rgb), 0.4);
+    margin: 24px;
+  }
+
+  > .gb-form-submit-btn {
+    --box-shadow: 0 0 16px 4px rgba(var(--ion-color-primary-rgb), 0.4);
+    --padding-end: 64px;
+    --padding-start: 64px;
+    display: block;
+    height: 48px;
+    margin: 32px auto;
+    width: 50%;
+  }
+}
