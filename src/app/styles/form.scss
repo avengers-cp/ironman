@@ -7,12 +7,12 @@
     --border-color: white;
     --border-radius: 24px;
     --border-width: 1px;
-    --box-shadow: 0 0 16px 4px rgba(var(--ion-color-medium-rgb), 0.4);
+    --box-shadow: var(--ion-color-medium-box-shadow);
     margin: 24px;
   }
 
   > .gb-form-submit-btn {
-    --box-shadow: 0 0 16px 4px rgba(var(--ion-color-primary-rgb), 0.4);
+    --box-shadow: var(--ion-color-primary-box-shadow);
     --padding-end: 64px;
     --padding-start: 64px;
     display: block;
