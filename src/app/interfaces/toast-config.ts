@@ -1,4 +1,4 @@
-// Extract from https://ionicframework.com/docs/api/toast to help make strongly typed.
+// Extract from https://ionicframework.com/docs/api/toast to help make ToastService strongly typed.
 
 import { ToastButton } from '@ionic/core';
 
