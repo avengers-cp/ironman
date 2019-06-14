@@ -3,18 +3,36 @@
 
   <form class="gb-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()" >
     <ion-item class="gb-form-field">
-      <ion-input type="email" formControlName="email" clear-input="true" placeholder="Your email address"></ion-input>
+      <ion-input type="email"
+        formControlName="email"
+        clear-input="true"
+        placeholder="Your email address">
+      </ion-input>
     </ion-item>
 
     <ion-item class="gb-form-field password-field">
-      <ion-input type="password" formControlName="password" clear-input="true" placeholder="Your password"></ion-input>
+      <ion-input type="password"
+        formControlName="password"
+        clear-input="true"
+        placeholder="Your password">
+      </ion-input>
     </ion-item>
 
     <div class="forgot-password-btn-container">
-      <ion-button type="button" class="primary-clear-btn" fill="clear" size="small">forgot password</ion-button>
+      <ion-button type="button"
+        class="primary-clear-btn"
+        fill="clear"
+        size="small">
+        Forgot password
+      </ion-button>
     </div>
 
-    <ion-button type="submit" class="gb-form-submit-btn" shape="round">Login</ion-button>
+    <ion-button type="submit"
+      class="gb-form-submit-btn"
+      shape="round"
+      [disabled]="loginForm.invalid">
+      Login
+    </ion-button>
   </form>
 
   <div class="create-account-btn-container">
