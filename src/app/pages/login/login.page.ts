@@ -46,6 +46,7 @@ export class LoginPage implements OnInit {
       try {
         await this.authService.login(email, password);
         this.router.navigateByUrl('/tabs/tab1');
+        this.loginForm.reset();
       } catch (error) {
         this.toastService.showErrorToast('Invalid email or password. Please try again');
       } finally {
