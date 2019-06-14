@@ -20,6 +20,7 @@
 
     <div class="forgot-password-btn-container">
       <ion-button type="button"
+        (click)="forgotPassword()"
         class="primary-clear-btn"
         fill="clear"
         size="small">
@@ -36,6 +37,12 @@
   </form>
 
   <div class="create-account-btn-container">
-    <ion-button type="button" class="primary-clear-btn" fill="clear" size="small">Create an account</ion-button>
+    <ion-button type="button"
+      (click)="createAccount()"
+      class="primary-clear-btn"
+      fill="clear"
+      size="small">
+      Create an account
+    </ion-button>
   </div>
 </ion-content>

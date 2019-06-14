@@ -26,6 +26,18 @@ export class LoginPage implements OnInit {
     this.initForm();
   }
 
+  public createAccount(): void {
+    this.toastService.showInfoToast('This feature has not yet been implemented');
+  }
+
+  public forgotPassword(): void {
+    this.toastService.showInfoToast('This feature has not yet been implemented');
+  }
+
+  /**
+   * Submit the form and attempt to login to the app.
+   * @returns - Resolves when the login attempt has finished.
+   */
   public async onSubmit(): Promise<void> {
     if (this.loginForm.valid) {
       const loading = await this.loadingCtrl.create();
