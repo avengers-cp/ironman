@@ -14,7 +14,7 @@ export class ToastService {
    * @param message - The error message to be displayed.
    * @param duration - The duration to display the toast for. Default is 2000 milliseconds.
    */
-  public showErrorToast(message: string, duration: number = 2000): Promise<void> {
+  public showErrorToast(message: string, duration: number = 3000): Promise<void> {
     const toastConfig: ToastConfig = {
       message,
       duration,
