@@ -1,12 +1,14 @@
+import { UserService } from './user.service';
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/auth';
+import { User } from '../interfaces/user';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
 
-  constructor(private afAuth: AngularFireAuth) { }
+  constructor(private afAuth: AngularFireAuth, private userService: UserService) { }
 
   /**
    * Create a user account.
@@ -27,7 +29,14 @@ export class AuthService {
     return new Promise<void>(async (resolve, reject) => {
       try {
         const userCredential = await this.afAuth.auth.createUserWithEmailAndPassword(email, password);
-        // TODO: call user service method to create userprofile.
+        const user: User = {
+          birthdate,
+          email,
+          firstname,
+          id: userCredential.user.uid,
+          lastname
+        };
+        this.userService.createUserProfile(user); // don't need to wait for this to resolve.
         resolve();
       } catch (error) {
         reject(error);
