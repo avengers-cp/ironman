@@ -1,7 +1,10 @@
-import { UserService } from './user.service';
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/auth';
+
+import { UserService } from './user.service';
+
 import { User } from '../interfaces/user';
+import { Gender } from '../interfaces/gender';
 
 @Injectable({
   providedIn: 'root'
@@ -23,6 +26,7 @@ export class AuthService {
     birthdate: Date,
     email: string,
     firstname: string,
+    gender: Gender,
     lastname: string,
     password: string
   ): Promise<void> {
@@ -33,6 +37,7 @@ export class AuthService {
           birthdate,
           email,
           firstname,
+          gender,
           id: userCredential.user.uid,
           lastname
         };
