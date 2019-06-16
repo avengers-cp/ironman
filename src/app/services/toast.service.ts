@@ -19,7 +19,8 @@ export class ToastService {
       message,
       duration,
       keyboardClose: true,
-      color: 'danger'
+      color: 'danger',
+      cssClass: 'toast-center-text'
     };
     return this.createToast(toastConfig);
   }
@@ -33,7 +34,24 @@ export class ToastService {
     const toastConfig: ToastConfig = {
       message,
       duration,
-      keyboardClose: true
+      keyboardClose: true,
+      cssClass: 'toast-center-text'
+    };
+    return this.createToast(toastConfig);
+  }
+
+  /**
+   * Show an success toast for a set amount of time.
+   * @param message - The success message to be displayed.
+   * @param duration - The duration to display the toast for. Default is 2000 milliseconds.
+   */
+  public showSuccessToast(message: string, duration: number = 2000): Promise<void> {
+    const toastConfig: ToastConfig = {
+      message,
+      duration,
+      keyboardClose: true,
+      color: 'success',
+      cssClass: 'toast-center-text'
     };
     return this.createToast(toastConfig);
   }

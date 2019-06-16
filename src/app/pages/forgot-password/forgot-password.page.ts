@@ -35,6 +35,7 @@ export class ForgotPasswordPage implements OnInit {
       const email = this.forgotPasswordForm.value.email;
       try {
         await this.authService.sendPasswordResetEmail(email);
+        this.toastService.showSuccessToast('An email has been sent to you!');
         this.navCtrl.navigateRoot('/login');
         this.forgotPasswordForm.reset();
       } catch (error) {
