@@ -36,3 +36,6 @@ UserInterfaceState.xcuserstate
 # Config files
 src/config/firebase-staging.ts
 src/config/firebase-production.ts
+
+# Firebase file
+.firebase/
