@@ -30,10 +30,6 @@ export class LoginPage implements OnInit {
     this.toastService.showInfoToast('This feature has not yet been implemented');
   }
 
-  public forgotPassword(): void {
-    this.toastService.showInfoToast('This feature has not yet been implemented');
-  }
-
   /**
    * Submit the form and attempt to login to the app.
    * @returns - Resolves when the login attempt has finished.
