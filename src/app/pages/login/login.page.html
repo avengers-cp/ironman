@@ -1,0 +1,48 @@
+<ion-content class="login-page">
+  <img src="../../../assets/icons/gb-logo.png" class="logo"/>
+
+  <form class="gb-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()" >
+    <ion-item class="gb-form-field">
+      <ion-input type="email"
+        formControlName="email"
+        clear-input="true"
+        placeholder="Your email address">
+      </ion-input>
+    </ion-item>
+
+    <ion-item class="gb-form-field password-field">
+      <ion-input type="password"
+        formControlName="password"
+        clear-input="true"
+        placeholder="Your password">
+      </ion-input>
+    </ion-item>
+
+    <div class="forgot-password-btn-container">
+      <ion-button type="button"
+        (click)="forgotPassword()"
+        class="primary-clear-btn"
+        fill="clear"
+        size="small">
+        Forgot password
+      </ion-button>
+    </div>
+
+    <ion-button type="submit"
+      class="gb-form-submit-btn"
+      shape="round"
+      [disabled]="loginForm.invalid">
+      Login
+    </ion-button>
+  </form>
+
+  <div class="create-account-btn-container">
+    <ion-button type="button"
+      (click)="createAccount()"
+      class="primary-clear-btn"
+      fill="clear"
+      size="small">
+      Create an account
+    </ion-button>
+  </div>
+</ion-content>

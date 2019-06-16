@@ -1,0 +1,41 @@
+.gb-form {
+  margin-top: 40px;
+
+  > .gb-form-field {
+    --background-focused: none;
+    --border-color: white;
+    --border-radius: 24px;
+    --border-width: 1px;
+    --box-shadow: var(--ion-color-medium-box-shadow);
+    --highlight-height: 0;
+    --transition: --box-shadow, 0.3s;
+    margin: 24px;
+
+    &.ion-dirty.ion-invalid {
+      --box-shadow: var(--ion-color-danger-box-shadow);
+    }
+
+    &.item-has-focus {
+      --box-shadow: var(--ion-color-dark-box-shadow);
+
+      &.ion-valid {
+        --box-shadow: var(--ion-color-success-box-shadow);
+      }
+    }
+
+    input {
+      padding-left: 8px;
+    }
+
+  }
+
+  > .gb-form-submit-btn {
+    --box-shadow: var(--ion-color-primary-box-shadow);
+    --padding-end: 64px;
+    --padding-start: 64px;
+    display: block;
+    height: 48px;
+    margin: 32px auto;
+    width: 50%;
+  }
+}
