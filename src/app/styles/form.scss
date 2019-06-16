@@ -33,9 +33,8 @@
     --box-shadow: var(--ion-color-primary-box-shadow);
     --padding-end: 64px;
     --padding-start: 64px;
-    display: block;
+    display: table;
     height: 48px;
     margin: 32px auto;
-    width: 50%;
   }
 }

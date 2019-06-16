@@ -9,8 +9,14 @@ const routes: Routes = [
     path: 'login',
     loadChildren: './pages/login/login.module#LoginPageModule',
     ...canActivate(redirectLoggedInTo(['/tabs/tab1']))
+  },
+  { 
+    path: 'forgot-password', 
+    loadChildren: './pages/forgot-password/forgot-password.module#ForgotPasswordPageModule', 
+    ...canActivate(redirectLoggedInTo(['/tabs/tab1']))
   }
 ];
+
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
