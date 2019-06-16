@@ -10,7 +10,9 @@ import { ToastService } from 'src/app/services/toast.service';
   styleUrls: ['./forgot-password.page.scss'],
 })
 export class ForgotPasswordPage implements OnInit {
+
   public forgotPasswordForm: FormGroup;
+
   constructor(
     private authService: AuthService,
     private formbuilder: FormBuilder,
