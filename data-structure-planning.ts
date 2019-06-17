@@ -1,10 +1,18 @@
 // users/
 interface User {
-  firstname: string;
-  lastname: string;
+  firstName: string;
+  lastName: string;
   email: string;
-  birthDate: Date | string;
+  gender: Gender;
+  dateOfBirth: Date | string; // should be Date.
   id: string;
+}
+
+enum Gender {
+  MALE = 'male',
+  FEMALE = 'female',
+  OTHER = 'other',
+  UNDEFINED = 'not specified',
 }
 
 // users/{userId}/Workouts/{workoutId}/
