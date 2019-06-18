@@ -1,5 +1,5 @@
-import { User } from './../interfaces/user';
-import { Role } from './../interfaces/role.enum';
+import { Role } from './../models/role.enum';
+import { User } from './../models/user';
 import { UserService } from './../services/user.service';
 import { AuthService } from './../services/auth.service';
 import { Injectable } from '@angular/core';

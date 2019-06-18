@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ToastController } from '@ionic/angular';
-import { ToastConfig } from '../interfaces/toast-config';
+import { ToastConfig } from '../models/toast-config';
 
 @Injectable({
   providedIn: 'root'

@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/auth';
 
+import { Observable } from 'rxjs';
+
 import { UserService } from './user.service';
 
-import { User } from '../interfaces/user';
-import { Gender } from '../interfaces/gender.enum';
-import { Role } from '../interfaces/role.enum';
-import { Observable } from 'rxjs';
+import { Gender } from '../models/gender.enum';
+import { Role } from '../models/role.enum';
+import { User } from '../models/user';
 
 @Injectable({
   providedIn: 'root'
