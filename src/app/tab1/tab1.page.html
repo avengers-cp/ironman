@@ -17,7 +17,7 @@
 
   <ion-button type="button"
     expand="block"
-    *ngIf="canCreateExercise"
+    *ngIf="(user$ | async)?.role === masterAdminRole"
     routerLink="/create-exercise">
     Create an Exercise
   </ion-button>

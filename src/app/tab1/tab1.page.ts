@@ -1,8 +1,9 @@
-import { User } from './../interfaces/user';
-import { UserService } from './../services/user.service';
-import { AuthService } from './../services/auth.service';
 import { Component } from '@angular/core';
 import { NavController, LoadingController } from '@ionic/angular';
+import { Observable } from 'rxjs';
+import { User } from './../interfaces/user';
+import { AuthService } from './../services/auth.service';
+import { UserService } from './../services/user.service';
 
 import * as _ from 'lodash';
 import { Role } from '../interfaces/role.enum';
@@ -21,12 +22,12 @@ export class Tab1Page {
     private userService: UserService
   ) { }
 
-  public get canCreateExercise(): boolean {
-    return _.get(this.user, 'role') === Role.MASTER_ADMIN;
+  public get masterAdminRole(): Role.MASTER_ADMIN {
+    return Role.MASTER_ADMIN;
   }
 
-  public get user(): User {
-    return this.userService.user;
+  public get user$(): Observable<User> {
+    return this.userService.user$;
   }
 
   public async logout(): Promise<void> {
