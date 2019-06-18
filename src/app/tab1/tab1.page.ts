@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { NavController, LoadingController } from '@ionic/angular';
 import { Observable } from 'rxjs';
-import { User } from './../interfaces/user';
+import { User } from './../models/user';
 import { AuthService } from './../services/auth.service';
 import { UserService } from './../services/user.service';
 
 import * as _ from 'lodash';
-import { Role } from '../interfaces/role.enum';
+import { Role } from '../models/role.enum';
 
 @Component({
   selector: 'app-tab1',
