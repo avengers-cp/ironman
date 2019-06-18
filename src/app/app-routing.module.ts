@@ -1,3 +1,4 @@
+import { MasterAdminGuard } from './guards/master-admin.guard';
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
@@ -17,8 +18,8 @@ const routes: Routes = [
   },
   {
     path: 'create-exercise',
-    loadChildren: './pages/admin/create-exercise/create-exercise.module#CreateExercisePageModule'
-    // canActivate: []
+    loadChildren: './pages/admin/create-exercise/create-exercise.module#CreateExercisePageModule',
+    canActivate: [MasterAdminGuard]
   }
 ];
 
