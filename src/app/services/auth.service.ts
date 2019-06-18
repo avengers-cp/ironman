@@ -4,7 +4,8 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import { UserService } from './user.service';
 
 import { User } from '../interfaces/user';
-import { Gender } from '../interfaces/gender';
+import { Gender } from '../interfaces/gender.enum';
+import { Role } from '../interfaces/role.enum';
 
 @Injectable({
   providedIn: 'root'
@@ -39,7 +40,8 @@ export class AuthService {
           firstname,
           gender,
           id: userCredential.user.uid,
-          lastname
+          lastname,
+          role: Role.NORMAL
         };
         this.userService.createUserProfile(user); // don't need to wait for this to resolve.
         resolve();

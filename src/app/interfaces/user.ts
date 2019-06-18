@@ -1,4 +1,5 @@
-import { Gender } from './gender';
+import { Gender } from './gender.enum';
+import { Role } from './role.enum';
 
 export interface User {
   birthdate: Date;
@@ -7,4 +8,5 @@ export interface User {
   gender: Gender;
   id: string;
   lastname: string;
+  role: Role;
 }

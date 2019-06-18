@@ -10,10 +10,15 @@ const routes: Routes = [
     loadChildren: './pages/login/login.module#LoginPageModule',
     ...canActivate(redirectLoggedInTo(['/tabs/tab1']))
   },
-  { 
-    path: 'forgot-password', 
-    loadChildren: './pages/forgot-password/forgot-password.module#ForgotPasswordPageModule', 
+  {
+    path: 'forgot-password',
+    loadChildren: './pages/forgot-password/forgot-password.module#ForgotPasswordPageModule',
     ...canActivate(redirectLoggedInTo(['/tabs/tab1']))
+  },
+  {
+    path: 'create-exercise',
+    loadChildren: './pages/admin/create-exercise/create-exercise.module#CreateExercisePageModule'
+    // canActivate: []
   }
 ];
 
