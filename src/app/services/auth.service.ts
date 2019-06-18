@@ -16,31 +16,31 @@ export class AuthService {
 
   /**
    * Create a user account.
-   * @param birthdate - Users date of birth.
+   * @param dateOfBirth - Users date of birth.
    * @param email - Users email.
-   * @param firstname - Users first name.
-   * @param lastname - Users last name.
+   * @param firstName - Users first name.
+   * @param lastName - Users last name.
    * @param password - Users password.
    * @returns - Resolves when the user account has been created.
    */
   public createUser(
-    birthdate: Date,
+    dateOfBirth: Date,
     email: string,
-    firstname: string,
+    firstName: string,
     gender: Gender,
-    lastname: string,
+    lastName: string,
     password: string
   ): Promise<void> {
     return new Promise<void>(async (resolve, reject) => {
       try {
         const userCredential = await this.afAuth.auth.createUserWithEmailAndPassword(email, password);
         const user: User = {
-          birthdate,
+          dateOfBirth,
           email,
-          firstname,
+          firstName,
           gender,
           id: userCredential.user.uid,
-          lastname,
+          lastName,
           role: Role.NORMAL
         };
         this.userService.createUserProfile(user); // don't need to wait for this to resolve.

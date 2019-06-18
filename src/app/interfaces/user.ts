@@ -2,11 +2,11 @@ import { Gender } from './gender.enum';
 import { Role } from './role.enum';
 
 export interface User {
-  birthdate: Date;
+  dateOfBirth: Date;
   email: string;
-  firstname: string;
+  firstName: string;
   gender: Gender;
   id: string;
-  lastname: string;
+  lastName: string;
   role: Role;
 }
