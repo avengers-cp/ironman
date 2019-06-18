@@ -6,13 +6,22 @@ import { UserService } from './user.service';
 import { User } from '../interfaces/user';
 import { Gender } from '../interfaces/gender.enum';
 import { Role } from '../interfaces/role.enum';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
 
-  constructor(private afAuth: AngularFireAuth, private userService: UserService) { }
+  public authenticatedUser: firebase.User;
+  public isLoggedIn$: Observable<firebase.User>;
+
+  constructor(private afAuth: AngularFireAuth, private userService: UserService) {
+    this.isLoggedIn$ = this.afAuth.user;
+    this.isLoggedIn$.subscribe((user: firebase.User) => {
+      this.authenticatedUser = user;
+    });
+  }
 
   /**
    * Create a user account.
@@ -52,13 +61,37 @@ export class AuthService {
   }
 
   /**
+   * Get the currently logged in User.
+   * @returns - Resolves with the firebase.User object if a user is logged in.
+   *            If no user is logged in, rejects with an error.
+   */
+  public getLoggedInUser(): Promise<firebase.User> {
+    return new Promise<firebase.User>((resolve, reject) => {
+      if (this.authenticatedUser) {
+        resolve(this.authenticatedUser);
+      } else {
+        this.isLoggedIn$.subscribe((user: firebase.User) => {
+          if (user) {
+            this.authenticatedUser = user;
+            resolve(user);
+          } else {
+            reject(new Error('No user logged in'));
+          }
+        });
+      }
+    });
+  }
+
+  /**
    * Login to the app with an email and password.
    * @param email - User's email.
    * @param password - User's password.
    * @returns - Resolves the users auth credential.
    */
-  public login(email: string, password: string): Promise<firebase.auth.UserCredential> {
-    return this.afAuth.auth.signInWithEmailAndPassword(email, password);
+  public async login(email: string, password: string): Promise<void> {
+    const userCredential = await this.afAuth.auth.signInWithEmailAndPassword(email, password);
+    this.authenticatedUser = userCredential.user;
+    this.userService.loadUser(this.authenticatedUser.uid);
   }
 
   /**
