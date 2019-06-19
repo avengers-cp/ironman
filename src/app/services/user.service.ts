@@ -1,78 +1,98 @@
 import { Injectable } from '@angular/core';
-import { AngularFirestore, AngularFirestoreDocument } from '@angular/fire/firestore';
+import { AngularFireAuth } from '@angular/fire/auth';
+import { AngularFirestore } from '@angular/fire/firestore';
+
+import { Observable, of } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
+
+import { Gender } from '../models/gender.enum';
+import { Role } from '../models/role.enum';
 import { User } from '../models/user';
-import { BehaviorSubject, Observable, Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
 
-  private userDoc: AngularFirestoreDocument<User>;
-  private user: BehaviorSubject<User> = new BehaviorSubject<User>(null);
-  public user$: Observable<User> = this.user.asObservable();
+  public user$: Observable<User>;
 
-  constructor(private firestore: AngularFirestore) { }
-
-  /**
-   * Create a user profile for a new user.
-   * @param user - The user object to save to the database.
-   * @returns - Resolves when the user has been created.
-   */
-  public createUserProfile(user: User): Promise<void> {
-    return this.firestore.doc<User>(this.userDocPath(user.id)).set(user);
+  constructor(
+    private afAuth: AngularFireAuth,
+    private firestore: AngularFirestore
+  ) {
+    this.user$ = this.afAuth.authState.pipe(
+      switchMap((authUser: firebase.User) => {
+        if (authUser) {
+          return this.firestore.doc<User>(`users/${authUser.uid}`).valueChanges();
+        } else {
+          return of(null);
+        }
+      })
+    );
   }
 
   /**
-   * Get the user object of a user.
-   * @param userId - The ID of the user to get.
-   * @returns - An observable of the user.
+   * Create a user account.
+   * @param dateOfBirth - Users date of birth.
+   * @param email - Users email.
+   * @param firstName - Users first name.
+   * @param lastName - Users last name.
+   * @param password - Users password.
+   * @returns - Resolves when the user account has been created.
    */
-  public getUser = (userId: string): Observable<User> => {
-    return this.firestore.doc<User>(this.userDocPath(userId)).valueChanges();
-  }
-
-  /**
-   * Load the user and subscribe to the user.
-   * @param userId - The ID of the user.
-   * @returns - Resolves after the user has been loaded.
-   */
-  public loadUser(userId: string): Promise<User> {
-    return new Promise<User>((resolve) => {
-      this.userDoc = this.firestore.doc<User>(this.userDocPath(userId));
-      this.subscribeToUserDoc();
-
-      const unsubscribe$ = new Subject<void>();
-
-      this.user$
-        .pipe(takeUntil(unsubscribe$))
-        .subscribe((user: User) => {
-          if (user) {
-            unsubscribe$.next();
-            unsubscribe$.complete();
-            resolve(user);
-          }
-        });
+  public createUser(
+    dateOfBirth: Date,
+    email: string,
+    firstName: string,
+    gender: Gender,
+    lastName: string,
+    password: string
+  ): Promise<void> {
+    return new Promise<void>(async (resolve, reject) => {
+      try {
+        const userCredential = await this.afAuth.auth.createUserWithEmailAndPassword(email, password);
+        const user: User = {
+          dateOfBirth,
+          email,
+          firstName,
+          gender,
+          id: userCredential.user.uid,
+          lastName,
+          role: Role.NORMAL
+        };
+        // Don't need to wait for below to finish. This will improve performance of this function.
+        this.firestore.doc<User>(`users/${user.id}`).set(user);
+        resolve();
+      } catch (error) {
+        reject(error);
+      }
     });
   }
 
   /**
-   * Subscribe to the user's profile.
-   * Any new changes will be updated in the client automatically.
+   * Login to the app with an email and password.
+   * @param email - User's email.
+   * @param password - User's password.
+   * @returns - Resolves the users auth credential.
    */
-  private subscribeToUserDoc(): void {
-    this.userDoc.valueChanges().subscribe((user: User) => {
-      this.user.next(user);
-    });
+  public async login(email: string, password: string): Promise<firebase.auth.UserCredential> {
+    return this.afAuth.auth.signInWithEmailAndPassword(email, password);
   }
 
   /**
-   * Helper method to get the path for a user record.
-   * @param userId - The ID of the user.
-   * @returns - Path for the user object.
+   * Logout of the app.
+   * @returns - Resolves when the user has logged out.
    */
-  private userDocPath(userId: string): string {
-    return `users/${userId}`;
+  public logout(): Promise<void> {
+    return this.afAuth.auth.signOut();
+  }
+
+  /**
+   * Send a link to a specified email to allow a user to reset their password.
+   * @param email - The email of the user attempting to reset their password.
+   * @returns - Resolves when the password reset email has been sent.
+   */
+  public sendPasswordResetEmail(email: string): Promise<void> {
+    return this.afAuth.auth.sendPasswordResetEmail(email);
   }
 }
