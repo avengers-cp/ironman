@@ -25,6 +25,15 @@ export class UserService {
   }
 
   /**
+   * Get the user object of a user.
+   * @param userId - The ID of the user to get.
+   * @returns - An observable of the user.
+   */
+  public getUser = (userId: string): Observable<User> => {
+    return this.firestore.doc<User>(this.userDocPath(userId)).valueChanges();
+  }
+
+  /**
    * Load the user and subscribe to the user.
    * @param userId - The ID of the user.
    * @returns - Resolves after the user has been loaded.

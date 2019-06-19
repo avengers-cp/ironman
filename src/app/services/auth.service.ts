@@ -15,11 +15,11 @@ import { User } from '../models/user';
 export class AuthService {
 
   public authenticatedUser: firebase.User;
-  public isLoggedIn$: Observable<firebase.User>;
+  public authUser$: Observable<firebase.User>;
 
   constructor(private afAuth: AngularFireAuth, private userService: UserService) {
-    this.isLoggedIn$ = this.afAuth.user;
-    this.isLoggedIn$.subscribe((user: firebase.User) => {
+    this.authUser$ = this.afAuth.user;
+    this.authUser$.subscribe((user: firebase.User) => {
       this.authenticatedUser = user;
     });
   }
@@ -71,7 +71,7 @@ export class AuthService {
       if (this.authenticatedUser) {
         resolve(this.authenticatedUser);
       } else {
-        this.isLoggedIn$.subscribe((user: firebase.User) => {
+        this.authUser$.subscribe((user: firebase.User) => {
           if (user) {
             this.authenticatedUser = user;
             resolve(user);

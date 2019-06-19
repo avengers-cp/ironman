@@ -22,7 +22,7 @@ export class AppComponent {
 
     const authUser = this.authService.authenticatedUser;
     if (!authUser) {
-      this.authService.isLoggedIn$.subscribe((user: firebase.User) => {
+      this.authService.authUser$.subscribe((user: firebase.User) => {
         if (user) {
           this.userService.loadUser(user.uid);
         }

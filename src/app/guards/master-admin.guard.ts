@@ -1,11 +1,14 @@
-import { Role } from './../models/role.enum';
-import { User } from './../models/user';
-import { UserService } from './../services/user.service';
-import { AuthService } from './../services/auth.service';
 import { Injectable } from '@angular/core';
 import { CanActivate, Router, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
-import { Observable, Subject } from 'rxjs';
-import { takeUntil } from 'rxjs/operators';
+
+import { Observable, of } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
+
+import { Role } from './../models/role.enum';
+import { User } from './../models/user';
+
+import { AuthService } from './../services/auth.service';
+import { UserService } from './../services/user.service';
 
 @Injectable({
   providedIn: 'root'
@@ -22,33 +25,36 @@ export class MasterAdminGuard implements CanActivate {
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot
   ): Observable<boolean> | Promise<boolean> | boolean {
-    return new Promise<boolean>((resolve) => {
-      this.authService.getLoggedInUser().then((authUser: firebase.User) => {
-        if (authUser) {
-          const unsubscribe$ = new Subject<void>();
-          this.userService.user$.pipe(takeUntil(unsubscribe$)).subscribe((user: User) => {
-            if (user) {
-              if (user.role === Role.MASTER_ADMIN) {
-                resolve(true);
-              } else {
-                this.router.navigateByUrl('/tabs');
-                resolve(false);
-              }
-              unsubscribe$.next();
-              unsubscribe$.complete();
-            }
-          });
+    const userId$: Observable<string> = this.authService.authUser$
+      .pipe(
+        switchMap((user: firebase.User) => {
+          if (user) {
+            return of(user.uid);
+          } else {
+            return of(null);
+          }
+        })
+      );
+
+    return userId$.pipe(
+      switchMap((userId: string) => {
+        if (userId) {
+          return this.userService.getUser(userId)
+            .pipe(
+              switchMap((user: User) => {
+                const isMasterAdmin = user.role === Role.MASTER_ADMIN;
+                if (!isMasterAdmin) {
+                  this.router.navigateByUrl('/tabs');
+                }
+                return of(isMasterAdmin);
+              })
+            );
         } else {
-          // User is not logged in so go to login page.
-          this.router.navigateByUrl('/login');
-          resolve(false);
+          this.router.navigateByUrl('/tabs');
+          return of(false);
         }
-      }).catch((error) => {
-        // User is not logged in so go to login page.
-        this.router.navigateByUrl('/login');
-        resolve(false);
-      });
-    });
+      }),
+    );
   }
 
 }
