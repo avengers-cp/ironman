@@ -1,5 +1,3 @@
-import { UserService } from './services/user.service';
-import { AuthService } from './services/auth.service';
 import { Component } from '@angular/core';
 
 import { Platform } from '@ionic/angular';
@@ -14,20 +12,9 @@ const { SplashScreen, StatusBar } = Plugins;
 })
 export class AppComponent {
   constructor(
-    private authService: AuthService,
-    private platform: Platform,
-    private userService: UserService
+    private platform: Platform
   ) {
     this.initializeApp();
-
-    const authUser = this.authService.authenticatedUser;
-    if (!authUser) {
-      this.authService.authUser$.subscribe((user: firebase.User) => {
-        if (user) {
-          this.userService.loadUser(user.uid);
-        }
-      });
-    }
   }
 
   initializeApp() {
