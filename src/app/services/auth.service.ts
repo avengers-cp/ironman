@@ -14,14 +14,10 @@ import { User } from '../models/user';
 })
 export class AuthService {
 
-  public authenticatedUser: firebase.User;
   public authUser$: Observable<firebase.User>;
 
   constructor(private afAuth: AngularFireAuth, private userService: UserService) {
     this.authUser$ = this.afAuth.user;
-    this.authUser$.subscribe((user: firebase.User) => {
-      this.authenticatedUser = user;
-    });
   }
 
   /**
@@ -62,28 +58,6 @@ export class AuthService {
   }
 
   /**
-   * Get the currently logged in User.
-   * @returns - Resolves with the firebase.User object if a user is logged in.
-   *            If no user is logged in, rejects with an error.
-   */
-  public getLoggedInUser(): Promise<firebase.User> {
-    return new Promise<firebase.User>((resolve, reject) => {
-      if (this.authenticatedUser) {
-        resolve(this.authenticatedUser);
-      } else {
-        this.authUser$.subscribe((user: firebase.User) => {
-          if (user) {
-            this.authenticatedUser = user;
-            resolve(user);
-          } else {
-            reject(new Error('No user logged in'));
-          }
-        });
-      }
-    });
-  }
-
-  /**
    * Login to the app with an email and password.
    * @param email - User's email.
    * @param password - User's password.
@@ -91,8 +65,7 @@ export class AuthService {
    */
   public async login(email: string, password: string): Promise<void> {
     const userCredential = await this.afAuth.auth.signInWithEmailAndPassword(email, password);
-    this.authenticatedUser = userCredential.user;
-    this.userService.loadUser(this.authenticatedUser.uid);
+    this.userService.loadUser(userCredential.user.uid);
   }
 
   /**
