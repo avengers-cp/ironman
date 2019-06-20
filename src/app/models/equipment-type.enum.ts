@@ -1,14 +1,14 @@
 export enum EquipmentType {
-  BANDS = 'bands',
-  BARBELL = 'barbell',
-  BODY = 'body only',
-  CABLE = 'cable',
-  DUMBBELL = 'dumbbell',
-  EXERCISE_BALL = 'exercise ball',
-  EZ_CURL_BAR = 'e-z curl bar',
-  FOAM_ROLL = 'foam roll',
-  KETTLEBELL = 'kettlebell',
-  MACHINE = 'machine',
-  OTHER = 'other',
-  SAND_BAG = 'sand bag'
+  BANDS = 'Bands',
+  BARBELL = 'Barbell',
+  BODY = 'Body Only',
+  CABLE = 'Cable',
+  DUMBBELL = 'Dumbbell',
+  EXERCISE_BALL = 'Exercise Ball',
+  EZ_CURL_BAR = 'E-Z Curl Bar',
+  FOAM_ROLL = 'Foam Roll',
+  KETTLEBELL = 'Kettlebell',
+  MACHINE = 'Machine',
+  OTHER = 'Other',
+  SAND_BAG = 'Sand Bag'
 }

@@ -7,6 +7,27 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="create-exercise-content">
+  <form [formGroup]="exerciseForm" class="gb-form">
+    <ion-item class="gb-form-field name-field">
+      <ion-input type="text"
+        formControlName="name"
+        clear-input="true"
+        placeholder="Exercise Name">
+      </ion-input>
+    </ion-item>
 
+    <ion-item class="gb-form-field">
+      <ion-select formControlName="equipmentType" interface="popover" class="select" placeholder="Equipment Type">
+        <ion-select-option *ngFor="let equipment of equipmentTypes" value="{{equipment}}" class="select-option">{{equipment}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-button type="submit"
+      class="gb-form-submit-btn"
+      shape="round"
+      [disabled]="exerciseForm.invalid">
+      Create Exercise
+    </ion-button>
+  </form>
 </ion-content>

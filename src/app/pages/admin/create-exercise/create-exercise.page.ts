@@ -34,7 +34,8 @@ export class CreateExercisePage implements OnInit {
 
   constructor(private formBuilder: FormBuilder) {
     // TODO: remove this window object.
-    window['ce'] = this;
+    const ce = 'ce';
+    window[ce] = this;
   }
 
   ngOnInit() {
@@ -86,7 +87,7 @@ export class CreateExercisePage implements OnInit {
         '',
         Validators.required
       ],
-      equipment: [
+      equipmentType: [
         '',
         Validators.required
       ],
