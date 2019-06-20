@@ -4,52 +4,52 @@ export interface Muscle {
 }
 
 export enum MainMuscleGroup {
-  ABS = 'abdominals',
-  ARMS = 'arms',
-  BACK = 'back',
-  CHEST = 'chest',
-  LEGS = 'legs',
-  SHOULDERS = 'shoulders'
+  ABS = 'Abdominals',
+  ARMS = 'Arms',
+  BACK = 'Back',
+  CHEST = 'Chest',
+  LEGS = 'Legs',
+  SHOULDERS = 'Shoulders'
 }
 
 export enum AbMuscle {
-  LOWER = 'lower abs',
-  MIDDLE = 'middle abs',
-  OBLIQUES = 'obliques',
-  UPPER = 'upper abs'
+  LOWER = 'Lower abs',
+  MIDDLE = 'Middle abs',
+  OBLIQUES = 'Obliques',
+  UPPER = 'Upper abs'
 }
 
 export enum ArmMuscle {
-  BICEP = 'bicep',
-  FOREARM = 'forearm',
-  TRICEP = 'tricep'
+  BICEP = 'Bicep',
+  FOREARM = 'Forearm',
+  TRICEP = 'Tricep'
 }
 
 export enum BackMuscle {
-  LAT = 'lateral',
-  LOWER = 'lower back',
-  MIDDLE = 'middle back',
-  TRAPS = 'traps'
+  LAT = 'Lateral',
+  LOWER = 'Lower back',
+  MIDDLE = 'Middle back',
+  TRAPS = 'Traps'
 }
 
 export enum ChestMuscle {
-  LOWER = 'lower chest',
-  MIDDLE = 'middle chest',
-  UPPER = 'upper chest'
+  LOWER = 'Lower chest',
+  MIDDLE = 'Middle chest',
+  UPPER = 'Upper chest'
 }
 
 export enum LegMuscle {
-  ABDUCTORS = 'abductors',
-  ADDUCTORS = 'adductors',
-  CALF = 'calf',
-  GLUTES = 'glutes',
-  HAMSTRING = 'hamstring',
-  QUAD = 'quad'
+  ABDUCTORS = 'Abductors',
+  ADDUCTORS = 'Adductors',
+  CALF = 'Calf',
+  GLUTES = 'Glutes',
+  HAMSTRING = 'Hamstring',
+  QUAD = 'Quad'
 }
 
 export enum ShoulderMuscle {
-  FRONT = 'front deltoids',
-  REAR = 'rear deltoids',
-  SIDE = 'side deltoids'
+  FRONT = 'Front deltoids',
+  REAR = 'Rear deltoids',
+  SIDE = 'Side deltoids'
 }
 
