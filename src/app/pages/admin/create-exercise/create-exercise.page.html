@@ -8,7 +8,7 @@
 </ion-header>
 
 <ion-content class="create-exercise-content">
-  <form [formGroup]="exerciseForm" class="gb-form">
+  <form [formGroup]="exerciseForm" class="gb-form" (ngSubmit)="onSubmit()" >
     <ion-item class="gb-form-field name-field">
       <ion-input type="text"
         formControlName="name"
@@ -18,7 +18,7 @@
     </ion-item>
 
     <ion-item class="gb-form-field">
-      <ion-select formControlName="equipmentType"
+      <ion-select formControlName="equipment"
         interface="popover"
         class="select"
         placeholder="Equipment Type">

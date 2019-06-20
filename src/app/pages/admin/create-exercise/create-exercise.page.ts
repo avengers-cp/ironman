@@ -12,6 +12,9 @@ import {
   ShoulderMuscle
 } from './../../../models/muscle';
 
+import { ExerciseService } from './../../../services/exercise.service';
+import { ToastService } from './../../../services/toast.service';
+
 import * as _ from 'lodash';
 
 @Component({
@@ -28,11 +31,11 @@ export class CreateExercisePage implements OnInit {
 
   private deletingMuscle: any;
 
-  constructor(private formBuilder: FormBuilder) {
-    // TODO: remove this window object.
-    const ce = 'ce';
-    window[ce] = this;
-  }
+  constructor(
+    private exerciseService: ExerciseService,
+    private formBuilder: FormBuilder,
+    private toastService: ToastService
+  ) { }
 
   ngOnInit() {
     this.initForm();
@@ -117,6 +120,25 @@ export class CreateExercisePage implements OnInit {
   }
 
   /**
+   * Submit the form to FireBase.
+   */
+  public onSubmit(): void {
+    if (this.exerciseForm.valid) {
+      const { name, equipment } = this.exerciseForm.value;
+      const targetedMuscles = this.muscleForms.value;
+      console.log({name, equipment, targetedMuscles});
+      try {
+        this.exerciseService.createExercise(equipment, name, targetedMuscles);
+        this.exerciseForm.reset();
+      } catch (error) {
+        console.error(error);
+      }
+    } else {
+      this.toastService.showErrorToast('ERROR: the form is invalid.');
+    }
+  }
+
+  /**
    * Initialise the exercise form.
    */
   private initForm(): void {
@@ -125,7 +147,7 @@ export class CreateExercisePage implements OnInit {
         '',
         Validators.required
       ],
-      equipmentType: [
+      equipment: [
         '',
         Validators.required
       ],
