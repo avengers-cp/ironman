@@ -31,41 +31,46 @@
     </ion-item>
 
     <div formArrayName="muscles">
-      <div class="animate-on-enter"
+      <div class="animate-on-enter muscle-form"
         [formGroupName]="i"
+        [class.deleting]="isDeleting(muscle)"
         *ngFor="let muscle of muscleForms.controls; let i=index">
-        <ion-item class="gb-form-field">
-          <ion-select class="select"
-            formControlName="mainMuscleGroup"
-            interface="popover"
-            placeholder="Select a muscle group">
-            <ion-select-option class="select-option"
-              *ngFor="let mainMuscle of mainMuscleGroups"
-              value="{{mainMuscle}}">
-              {{mainMuscle}}
-            </ion-select-option>
-          </ion-select>
-        </ion-item>
+        <div class="muscle-form-container">
+          <ion-item class="gb-form-field">
+            <ion-select class="select"
+              formControlName="mainMuscleGroup"
+              interface="popover"
+              placeholder="Select a muscle group">
+              <ion-select-option class="select-option"
+                *ngFor="let mainMuscle of mainMuscleGroups"
+                value="{{mainMuscle}}">
+                {{mainMuscle}}
+              </ion-select-option>
+            </ion-select>
+          </ion-item>
 
-        <ion-item class="gb-form-field animate-on-enter"
-          *ngIf="muscleForms.controls[i].value.mainMuscleGroup">
-          <ion-select class="select"
-            formControlName="muscleName"
-            interface="popover"
-            placeholder="Select a muscle">
-            <ion-select-option class="select-option"
-              *ngFor="let muscle of getMuscleNamesForGroup(i)"
-              value="{{muscle}}">
-              {{muscle}}
-            </ion-select-option>
-          </ion-select>
-        </ion-item>
+          <ion-item class="gb-form-field animate-on-enter"
+            *ngIf="muscleForms.controls[i].value.mainMuscleGroup">
+            <ion-select class="select"
+              formControlName="muscleName"
+              interface="popover"
+              placeholder="Select a muscle">
+              <ion-select-option class="select-option"
+                *ngFor="let muscle of getMuscleNamesForGroup(i)"
+                value="{{muscle}}">
+                {{muscle}}
+              </ion-select-option>
+            </ion-select>
+          </ion-item>
+        </div>
 
         <ion-button type="button"
-          (click)="deleteMuscle(i)"
+          class="delete-btn"
+          (click)="deleteMuscle(i, muscle)"
           color="danger"
+          slot="end"
           [disabled]="isDeleteMuscleDisabled">
-          Delete muscle
+          <ion-icon name="trash"></ion-icon>
         </ion-button>
       </div>
     </div>

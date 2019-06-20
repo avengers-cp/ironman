@@ -21,17 +21,12 @@ import * as _ from 'lodash';
 })
 export class CreateExercisePage implements OnInit {
 
-  public mainMuscleGroups: string[];
-  public abMuscles: string[];
-  public armMuscles: string[];
-  public backMuscles: string[];
-  public chestMuscles: string[];
-  public legMuscles: string[];
-  public shoulderMuscles: string[];
   public equipmentTypes: string[];
+  public mainMuscleGroups: string[];
   public muscleNames: any = {};
-
   public exerciseForm: FormGroup;
+
+  private deletingMuscle: any;
 
   constructor(private formBuilder: FormBuilder) {
     // TODO: remove this window object.
@@ -93,8 +88,21 @@ export class CreateExercisePage implements OnInit {
    *
    * @param index - The index position of the muscle in the muscles FormArray to be deleted.
    */
-  public deleteMuscle(index: number): void {
-    this.muscleForms.removeAt(index);
+  public deleteMuscle(index: number, muscle: any): void {
+    this.deletingMuscle = muscle;
+    setTimeout(() => {
+      this.muscleForms.removeAt(index);
+      this.deletingMuscle = null;
+    }, 200);
+  }
+
+  /**
+   * Check if a given muscle is being deleted.
+   * @param muscle - The muscle to check if it is being deleted.
+   * @returns - True if the given muscle is being deleted.
+   */
+  public isDeleting(muscle: any): boolean {
+    return this.deletingMuscle === muscle;
   }
 
   /**

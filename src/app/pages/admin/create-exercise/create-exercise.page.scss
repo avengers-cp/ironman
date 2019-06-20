@@ -6,6 +6,29 @@
   }
 
   .animate-on-enter {
-    animation: slide-up 0.2s ease;
+    animation: slide-up-in 0.2s ease;
+  }
+
+  .muscle-form {
+    display: flex;
+    align-items: center;
+
+    &.deleting {
+      animation: slide-down-out 0.2s ease;
+    }
+
+    > .muscle-form-container {
+      flex-grow: 1;
+    }
+
+    > .delete-btn {
+      --border-radius: 50%;
+      --box-shadow: var(--ion-color-danger-box-shadow);
+      height: 48px;
+      width: 48px;
+      margin-right: 32px;
+      --padding-start: 0;
+      --padding-end: 0;
+    }
   }
 }
