@@ -31,7 +31,8 @@
     </ion-item>
 
     <div formArrayName="muscles">
-      <div [formGroupName]="i"
+      <div class="animate-on-enter"
+        [formGroupName]="i"
         *ngFor="let muscle of muscleForms.controls; let i=index">
         <ion-item class="gb-form-field">
           <ion-select class="select"
@@ -46,7 +47,7 @@
           </ion-select>
         </ion-item>
 
-        <ion-item class="gb-form-field"
+        <ion-item class="gb-form-field animate-on-enter"
           *ngIf="muscleForms.controls[i].value.mainMuscleGroup">
           <ion-select class="select"
             formControlName="muscleName"
@@ -62,7 +63,8 @@
 
         <ion-button type="button"
           (click)="deleteMuscle(i)"
-          color="danger">
+          color="danger"
+          [disabled]="isDeleteMuscleDisabled">
           Delete muscle
         </ion-button>
       </div>

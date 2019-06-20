@@ -4,4 +4,8 @@
     max-width: 100%;
     width: 100%;
   }
+
+  .animate-on-enter {
+    animation: slide-up 0.2s ease;
+  }
 }

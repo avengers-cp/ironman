@@ -54,6 +54,14 @@ export class CreateExercisePage implements OnInit {
   }
 
   /**
+   * Check if you can delete the muscleForm.
+   * At least one muscle must be selected.
+   */
+  public get isDeleteMuscleDisabled(): boolean {
+    return this.muscleForms.length <= 1;
+  }
+
+  /**
    * Get the muscles sub-form from the exercise form.
    * @returns - The muscles form.
    */
@@ -115,6 +123,7 @@ export class CreateExercisePage implements OnInit {
       ],
       muscles: this.formBuilder.array([])
     });
+    this.addMuscle();
   }
 
 }
