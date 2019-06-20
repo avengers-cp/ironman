@@ -18,10 +18,61 @@
     </ion-item>
 
     <ion-item class="gb-form-field">
-      <ion-select formControlName="equipmentType" interface="popover" class="select" placeholder="Equipment Type">
-        <ion-select-option *ngFor="let equipment of equipmentTypes" value="{{equipment}}" class="select-option">{{equipment}}</ion-select-option>
+      <ion-select formControlName="equipmentType"
+        interface="popover"
+        class="select"
+        placeholder="Equipment Type">
+        <ion-select-option class="select-option"
+          *ngFor="let equipment of equipmentTypes"
+          value="{{equipment}}">
+          {{equipment}}
+        </ion-select-option>
       </ion-select>
     </ion-item>
+
+    <div formArrayName="muscles">
+      <div [formGroupName]="i"
+        *ngFor="let muscle of muscleForms.controls; let i=index">
+        <ion-item class="gb-form-field">
+          <ion-select class="select"
+            formControlName="mainMuscleGroup"
+            interface="popover"
+            placeholder="Select a muscle group">
+            <ion-select-option class="select-option"
+              *ngFor="let mainMuscle of mainMuscleGroups"
+              value="{{mainMuscle}}">
+              {{mainMuscle}}
+            </ion-select-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-item class="gb-form-field"
+          *ngIf="muscleForms.controls[i].value.mainMuscleGroup">
+          <ion-select class="select"
+            formControlName="muscleName"
+            interface="popover"
+            placeholder="Select a muscle">
+            <ion-select-option class="select-option"
+              *ngFor="let muscle of getMuscleNamesForGroup(i)"
+              value="{{muscle}}">
+              {{muscle}}
+            </ion-select-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-button type="button"
+          (click)="deleteMuscle(i)"
+          color="danger">
+          Delete muscle
+        </ion-button>
+      </div>
+    </div>
+
+    <ion-button type="button"
+      (click)="addMuscle()"
+      color="success">
+      Add muscle
+    </ion-button>
 
     <ion-button type="submit"
       class="gb-form-submit-btn"

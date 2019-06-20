@@ -29,6 +29,7 @@ export class CreateExercisePage implements OnInit {
   public legMuscles: string[];
   public shoulderMuscles: string[];
   public equipmentTypes: string[];
+  public muscleNames: any = {};
 
   public exerciseForm: FormGroup;
 
@@ -43,12 +44,12 @@ export class CreateExercisePage implements OnInit {
 
     // Initialise all our options.
     this.mainMuscleGroups = _.values(MainMuscleGroup);
-    this.abMuscles = _.values(AbMuscle);
-    this.armMuscles = _.values(ArmMuscle);
-    this.backMuscles = _.values(BackMuscle);
-    this.chestMuscles = _.values(ChestMuscle);
-    this.legMuscles = _.values(LegMuscle);
-    this.shoulderMuscles = _.values(ShoulderMuscle);
+    _.set(this.muscleNames, MainMuscleGroup.ABS, _.values(AbMuscle));
+    _.set(this.muscleNames, MainMuscleGroup.ARMS, _.values(ArmMuscle));
+    _.set(this.muscleNames, MainMuscleGroup.BACK, _.values(BackMuscle));
+    _.set(this.muscleNames, MainMuscleGroup.CHEST, _.values(ChestMuscle));
+    _.set(this.muscleNames, MainMuscleGroup.LEGS, _.values(LegMuscle));
+    _.set(this.muscleNames, MainMuscleGroup.SHOULDERS, _.values(ShoulderMuscle));
     this.equipmentTypes = _.values(EquipmentType);
   }
 
@@ -56,7 +57,7 @@ export class CreateExercisePage implements OnInit {
    * Get the muscles sub-form from the exercise form.
    * @returns - The muscles form.
    */
-  public get musclesForm(): FormArray {
+  public get muscleForms(): FormArray {
     return this.exerciseForm.get('muscles') as FormArray;
   }
 
@@ -66,7 +67,17 @@ export class CreateExercisePage implements OnInit {
    * @param muscle - The new muscle to be added to the muscles FormArray.
    */
   public addMuscle(): void {
-    this.musclesForm.push(this.formBuilder.control('', Validators.required));
+    const muscle: FormGroup = this.formBuilder.group({
+      mainMuscleGroup: [
+        '',
+        Validators.required
+      ],
+      muscleName: [
+        '',
+        Validators.required
+      ]
+    });
+    this.muscleForms.push(muscle);
   }
 
   /**
@@ -75,7 +86,18 @@ export class CreateExercisePage implements OnInit {
    * @param index - The index position of the muscle in the muscles FormArray to be deleted.
    */
   public deleteMuscle(index: number): void {
-    this.musclesForm.removeAt(index);
+    this.muscleForms.removeAt(index);
+  }
+
+  /**
+   * Get the list of muscle names depending on which mainMuscleGroup was selected.
+   * @param index - The index of the muscle form group.
+   * @returns - an array of the muscle names.
+   */
+  public getMuscleNamesForGroup(index: number): string[] {
+    const muscleForm = this.muscleForms.controls[index] as FormGroup;
+    const mainMuscleGroup: string = muscleForm.value.mainMuscleGroup;
+    return this.muscleNames[mainMuscleGroup];
   }
 
   /**
@@ -91,7 +113,7 @@ export class CreateExercisePage implements OnInit {
         '',
         Validators.required
       ],
-      musclesForm: this.formBuilder.array([])
+      muscles: this.formBuilder.array([])
     });
   }
 
