@@ -5,6 +5,15 @@
     width: 100%;
   }
 
+  .add-muscle-btn {
+    --box-shadow: var(--ion-color-success-box-shadow);
+    --padding-end: 32px;
+    --padding-start: 32px;
+    display: table;
+    height: 48px;
+    margin: 0 auto;
+  }
+
   .animate-on-enter {
     animation: slide-up-in 0.2s ease;
   }
@@ -19,16 +28,6 @@
 
     > .muscle-form-container {
       flex-grow: 1;
-    }
-
-    > .delete-btn {
-      --border-radius: 50%;
-      --box-shadow: var(--ion-color-danger-box-shadow);
-      height: 48px;
-      width: 48px;
-      margin-right: 32px;
-      --padding-start: 0;
-      --padding-end: 0;
     }
   }
 }

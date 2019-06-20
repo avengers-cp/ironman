@@ -1,3 +1,13 @@
+.delete-icon-circle-btn {
+  --border-radius: 50%;
+  --box-shadow: var(--ion-color-danger-box-shadow);
+  --padding-end: 0;
+  --padding-start: 0;
+  height: 48px;
+  margin-right: 32px;
+  width: 48px;
+}
+
 .primary-clear-btn {
   --color-activated: var(--ion-color-primary-tint);
   --ripple-color: var(--ion-color-primary-contrast, white);
