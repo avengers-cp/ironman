@@ -18,12 +18,12 @@
       </ion-input>
     </ion-item>
     <ion-item class="gb-form-field">
-      <ion-select placeholder="Gender" interface="popover" class="select">
+      <ion-select formControlName="gender" placeholder="Gender" interface="popover" class="select">
         <ion-select-option value="{{gender}}" *ngFor="let gender of genders">{{gender}}</ion-select-option>
       </ion-select>
     </ion-item>
     <ion-item class="gb-form-field">
-      <ion-datetime formControlName="dateOfBirth" placeholder="Date of birth" display-format="DD,MMM,YYYY"></ion-datetime>
+      <ion-datetime formControlName="dateOfBirth" placeholder="Date of birth" display-format="DD MMM YYYY"></ion-datetime>
     </ion-item>
     <ion-item class="gb-form-field">
       <ion-input type="email" formControlName="email" clear-input="true" placeholder="Email">
