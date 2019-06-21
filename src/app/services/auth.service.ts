@@ -15,7 +15,7 @@ export class AuthService {
 
   /**
    * Create a user account.
-   * @param birthdate - Users date of birth.
+   * @param dateOfBirth - Users date of birth.
    * @param email - Users email.
    * @param firstname - Users first name.
    * @param lastname - Users last name.
@@ -23,7 +23,7 @@ export class AuthService {
    * @returns - Resolves when the user account has been created.
    */
   public createUser(
-    birthdate: Date,
+    dateOfBirth: Date,
     email: string,
     firstname: string,
     gender: Gender,
@@ -34,7 +34,7 @@ export class AuthService {
       try {
         const userCredential = await this.afAuth.auth.createUserWithEmailAndPassword(email, password);
         const user: User = {
-          birthdate,
+          dateOfBirth,
           email,
           firstname,
           gender,

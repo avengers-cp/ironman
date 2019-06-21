@@ -37,4 +37,10 @@
     height: 48px;
     margin: 32px auto;
   }
+
+  .select {
+    --padding-start: 8px;
+    max-width: 100%;
+    width: 100%;
+  }
 }

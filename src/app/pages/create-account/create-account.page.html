@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Create Account</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="create-account">
+  <form class="gb-form" [formGroup]="createAccountForm" (ngSubmit)="onSubmit()">
+    <ion-item class="gb-form-field">
+      <ion-input type="text" formControlName="firstName" clear-input="true" placeholder="First name">
+      </ion-input>
+    </ion-item>
+    <ion-item class="gb-form-field">
+      <ion-input type="text" formControlName="lastName" clear-input="true" placeholder="Last name">
+      </ion-input>
+    </ion-item>
+    <ion-item class="gb-form-field">
+      <ion-select placeholder="Gender" interface="popover" class="select">
+        <ion-select-option value="{{gender}}" *ngFor="let gender of genders">{{gender}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item class="gb-form-field">
+      <ion-datetime formControlName="dateOfBirth" placeholder="Date of birth" display-format="DD,MMM,YYYY"></ion-datetime>
+    </ion-item>
+    <ion-item class="gb-form-field">
+      <ion-input type="email" formControlName="email" clear-input="true" placeholder="Email">
+      </ion-input>
+    </ion-item>
+    <ion-item class="gb-form-field">
+      <ion-input type="password" formControlName="password" clear-input="true" placeholder="Password">
+      </ion-input>
+    </ion-item>
+    <ion-item class="gb-form-field">
+      <ion-input type="password" formControlName="confirmPassword" clear-input="true" placeholder="Confirm password">
+      </ion-input>
+    </ion-item>
+
+    <ion-button type="submit" class="gb-form-submit-btn" shape="round" [disabled]="createAccountForm.invalid">
+      Create account
+    </ion-button>
+  </form>
+</ion-content>
