@@ -11,6 +11,13 @@ export class ExerciseService {
 
   constructor(private firestore: AngularFirestore) { }
 
+  /**
+   * Create an exercise and add it to the list of exercises in the database.
+   * @param equipment - Equipment required for the exercise.
+   * @param name - Name of the exercise.
+   * @param targetedMuscles - Muscles targetted by the exercise.
+   * @returns - Resolves when the exercise has been created.
+   */
   public createExercise(equipment: EquipmentType, name: string, targetedMuscles: Muscle[]): Promise<void> {
     const id = this.firestore.createId();
     const exercise: Exercise = {
