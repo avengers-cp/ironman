@@ -14,7 +14,12 @@ export class ExerciseService {
   private exercisesCollection: AngularFirestoreCollection<Exercise>;
 
   constructor(private firestore: AngularFirestore) {
-    this.exercisesCollection = this.firestore.collection<Exercise>('exercises');
+    this.exercisesCollection = this.firestore
+      .collection<Exercise>(
+        'exercises',
+        query => query.orderBy('name')
+      );
+
     this.exercises$ = this.exercisesCollection.valueChanges();
   }
 
