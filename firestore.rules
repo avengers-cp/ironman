@@ -1,7 +1,41 @@
 service cloud.firestore {
   match /databases/{database}/documents {
-    match /{document=**} {
-      allow read, write;
+
+    // Check if the request user is authenticated.
+    function isAuthenticated() {
+      return request.auth != null &&
+        request.auth.uid != null;
     }
+
+    // Returns true if the user making the request has role "master_admin".
+    function isUserMasterAdmin(userId) {
+      return isAuthenticated() &&
+        exists(/databases/$(database)/documents/users/$(userId)) &&
+        get(/databases/$(database)/documents/users/$(userId)).data.role == "master_admin";
+    }
+
+    // Check if the user making the request is the same user who owns the user document.
+    function isUserRequestUser(userId) {
+      return isAuthenticated() &&
+        request.auth.uid == userId;
+    }
+
+    // Maximise security by starting with a fully locked database
+    // and only allowing actions on a case by case basis.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Anyone can read exercises, only "master_admin"s can write.
+    match /exercises/{exerciseId} {
+      allow read;
+      allow write: if isUserMasterAdmin(request.auth.uid);
+    }
+
+    // Users can only access their own user profiles.
+    match /users/{userId} {
+      allow read, write: if isUserRequestUser(userId);
+    }
+
   }
 }
