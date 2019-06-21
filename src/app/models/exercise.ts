@@ -1,9 +1,13 @@
 import { EquipmentType } from './equipment-type.enum';
 import { Muscle } from './muscle';
 
-export interface Exercise {
+export interface ExerciseForm {
+  description: string;
   equipment: EquipmentType;
-  id: string;
   name: string;
   targetedMuscles: Muscle[];
+}
+
+export interface Exercise extends ExerciseForm {
+  id: string;
 }

@@ -1,9 +1,9 @@
-import { Observable } from 'rxjs';
-import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/firestore';
 import { Injectable } from '@angular/core';
-import { Exercise } from '../models/exercise';
-import { Muscle } from '../models/muscle';
-import { EquipmentType } from '../models/equipment-type.enum';
+import { AngularFirestore, AngularFirestoreCollection } from '@angular/fire/firestore';
+
+import { Observable } from 'rxjs';
+
+import { Exercise, ExerciseForm } from '../models/exercise';
 
 @Injectable({
   providedIn: 'root'
@@ -25,18 +25,14 @@ export class ExerciseService {
 
   /**
    * Create an exercise and add it to the list of exercises in the database.
-   * @param equipment - Equipment required for the exercise.
-   * @param name - Name of the exercise.
-   * @param targetedMuscles - Muscles targetted by the exercise.
+   * @param exerciseForm - The values entered by the user in the exercise form.
    * @returns - Resolves when the exercise has been created.
    */
-  public createExercise(equipment: EquipmentType, name: string, targetedMuscles: Muscle[]): Promise<void> {
+  public createExercise(exerciseForm: ExerciseForm): Promise<void> {
     const id = this.firestore.createId();
     const exercise: Exercise = {
-      equipment,
       id,
-      name,
-      targetedMuscles
+      ...exerciseForm
     };
     return this.exercisesCollection.doc<Exercise>(id).set(exercise);
   }

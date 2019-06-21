@@ -124,11 +124,8 @@ export class CreateExercisePage implements OnInit {
    */
   public onSubmit(): void {
     if (this.exerciseForm.valid) {
-      const { name, equipment } = this.exerciseForm.value;
-      const targetedMuscles = this.muscleForms.value;
-      console.log({name, equipment, targetedMuscles});
       try {
-        this.exerciseService.createExercise(equipment, name, targetedMuscles);
+        this.exerciseService.createExercise(this.exerciseForm.value);
         this.exerciseForm.reset();
       } catch (error) {
         console.error(error);
@@ -148,6 +145,10 @@ export class CreateExercisePage implements OnInit {
         Validators.required
       ],
       equipment: [
+        '',
+        Validators.required
+      ],
+      description: [
         '',
         Validators.required
       ],

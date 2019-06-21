@@ -1,8 +1,27 @@
 .create-exercise-content {
   .select {
     --padding-start: 8px;
+    color: var(--ion-color-medium-tint);
     max-width: 100%;
     width: 100%;
+
+    &.equipment {
+      &:before {
+        content: 'Equipment Type';
+      }
+    }
+
+    &.main-muscle-group {
+      &:before {
+        content: 'Select a muscle group';
+      }
+    }
+
+    &.muscle-name {
+      &:before {
+        content: 'Select a muscle';
+      }
+    }
   }
 
   .add-muscle-btn {

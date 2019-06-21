@@ -20,14 +20,20 @@
     <ion-item class="gb-form-field">
       <ion-select formControlName="equipment"
         interface="popover"
-        class="select"
-        placeholder="Equipment Type">
+        class="select equipment">
         <ion-select-option class="select-option"
           *ngFor="let equipment of equipmentTypes"
           value="{{equipment}}">
           {{equipment}}
         </ion-select-option>
       </ion-select>
+    </ion-item>
+
+    <ion-item class="gb-form-field">
+      <ion-textarea formControlName="description"
+        placeholder="How do you perform this exercise?"
+        auto-grow="true">
+      </ion-textarea>
     </ion-item>
 
     <div formArrayName="muscles">
@@ -37,10 +43,9 @@
         *ngFor="let muscle of muscleForms.controls; let i=index">
         <div class="muscle-form-container">
           <ion-item class="gb-form-field">
-            <ion-select class="select"
+            <ion-select class="select main-muscle-group"
               formControlName="mainMuscleGroup"
-              interface="popover"
-              placeholder="Select a muscle group">
+              interface="popover">
               <ion-select-option class="select-option"
                 *ngFor="let mainMuscle of mainMuscleGroups"
                 value="{{mainMuscle}}">
@@ -51,10 +56,9 @@
 
           <ion-item class="gb-form-field animate-on-enter"
             *ngIf="muscleForms.controls[i].value.mainMuscleGroup">
-            <ion-select class="select"
+            <ion-select class="select muscle-name"
               formControlName="muscleName"
-              interface="popover"
-              placeholder="Select a muscle">
+              interface="popover">
               <ion-select-option class="select-option"
                 *ngFor="let muscle of getMuscleNamesForGroup(i)"
                 value="{{muscle}}">
