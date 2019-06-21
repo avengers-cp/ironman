@@ -20,6 +20,11 @@ const routes: Routes = [
     path: 'create-exercise',
     loadChildren: './pages/admin/create-exercise/create-exercise.module#CreateExercisePageModule',
     canActivate: [MasterAdminGuard]
+  },
+  {
+    path:
+    'exercises',
+    loadChildren: './pages/exercises/exercises.module#ExercisesPageModule'
   }
 ];
 
