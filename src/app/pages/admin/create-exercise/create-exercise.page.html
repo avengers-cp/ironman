@@ -8,90 +8,94 @@
 </ion-header>
 
 <ion-content class="create-exercise-content">
-  <form [formGroup]="exerciseForm" class="gb-form" (ngSubmit)="onSubmit()" >
-    <ion-item class="gb-form-field name-field">
-      <ion-input type="text"
-        formControlName="name"
-        clear-input="true"
-        placeholder="Exercise Name">
-      </ion-input>
-    </ion-item>
+  <ion-grid fixed>
+    <div class="container">
+      <form [formGroup]="exerciseForm" class="gb-form" (ngSubmit)="onSubmit()" >
+        <ion-item class="gb-form-field name-field">
+          <ion-input type="text"
+            formControlName="name"
+            clear-input="true"
+            placeholder="Exercise Name">
+          </ion-input>
+        </ion-item>
 
-    <ion-item class="gb-form-field">
-      <ion-select formControlName="equipment"
-        interface="popover"
-        class="select equipment">
-        <ion-select-option class="select-option"
-          *ngFor="let equipment of equipmentTypes"
-          value="{{equipment}}">
-          {{equipment}}
-        </ion-select-option>
-      </ion-select>
-    </ion-item>
+        <ion-item class="gb-form-field">
+          <ion-textarea formControlName="description"
+            placeholder="How do you perform this exercise?"
+            auto-grow="true">
+          </ion-textarea>
+        </ion-item>
 
-    <ion-item class="gb-form-field">
-      <ion-textarea formControlName="description"
-        placeholder="How do you perform this exercise?"
-        auto-grow="true">
-      </ion-textarea>
-    </ion-item>
+        <ion-item class="gb-form-field">
+          <ion-select formControlName="equipment"
+            interface="popover"
+            class="select equipment">
+            <ion-select-option class="select-option"
+              *ngFor="let equipment of equipmentTypes"
+              value="{{equipment}}">
+              {{equipment}}
+            </ion-select-option>
+          </ion-select>
+        </ion-item>
 
-    <div formArrayName="muscles">
-      <div class="animate-on-enter muscle-form"
-        [formGroupName]="i"
-        [class.deleting]="isDeleting(muscle)"
-        *ngFor="let muscle of muscleForms.controls; let i=index">
-        <div class="muscle-form-container">
-          <ion-item class="gb-form-field">
-            <ion-select class="select main-muscle-group"
-              formControlName="mainMuscleGroup"
-              interface="popover">
-              <ion-select-option class="select-option"
-                *ngFor="let mainMuscle of mainMuscleGroups"
-                value="{{mainMuscle}}">
-                {{mainMuscle}}
-              </ion-select-option>
-            </ion-select>
-          </ion-item>
+        <div formArrayName="muscles">
+          <div class="animate-on-enter muscle-form"
+            [formGroupName]="i"
+            [class.deleting]="isDeleting(muscle)"
+            *ngFor="let muscle of muscleForms.controls; let i=index">
+            <div class="muscle-form-container">
+              <ion-item class="gb-form-field">
+                <ion-select class="select main-muscle-group"
+                  formControlName="mainMuscleGroup"
+                  interface="popover">
+                  <ion-select-option class="select-option"
+                    *ngFor="let mainMuscle of mainMuscleGroups"
+                    value="{{mainMuscle}}">
+                    {{mainMuscle}}
+                  </ion-select-option>
+                </ion-select>
+              </ion-item>
 
-          <ion-item class="gb-form-field animate-on-enter"
-            *ngIf="muscleForms.controls[i].value.mainMuscleGroup">
-            <ion-select class="select muscle-name"
-              formControlName="muscleName"
-              interface="popover">
-              <ion-select-option class="select-option"
-                *ngFor="let muscle of getMuscleNamesForGroup(i)"
-                value="{{muscle}}">
-                {{muscle}}
-              </ion-select-option>
-            </ion-select>
-          </ion-item>
+              <ion-item class="gb-form-field animate-on-enter"
+                *ngIf="muscleForms.controls[i].value.mainMuscleGroup">
+                <ion-select class="select muscle-name"
+                  formControlName="muscleName"
+                  interface="popover">
+                  <ion-select-option class="select-option"
+                    *ngFor="let muscle of getMuscleNamesForGroup(i)"
+                    value="{{muscle}}">
+                    {{muscle}}
+                  </ion-select-option>
+                </ion-select>
+              </ion-item>
+            </div>
+
+            <ion-button type="button"
+              class="delete-icon-circle-btn"
+              (click)="deleteMuscle(i, muscle)"
+              color="danger"
+              slot="end"
+              [disabled]="isDeleteMuscleDisabled">
+              <ion-icon name="trash"></ion-icon>
+            </ion-button>
+          </div>
         </div>
 
         <ion-button type="button"
-          class="delete-icon-circle-btn"
-          (click)="deleteMuscle(i, muscle)"
-          color="danger"
-          slot="end"
-          [disabled]="isDeleteMuscleDisabled">
-          <ion-icon name="trash"></ion-icon>
+          class="add-muscle-btn"
+          shape="round"
+          (click)="addMuscle()"
+          color="success">
+          Add muscle
         </ion-button>
-      </div>
+
+        <ion-button type="submit"
+          class="gb-form-submit-btn"
+          shape="round"
+          [disabled]="exerciseForm.invalid">
+          Create Exercise
+        </ion-button>
+      </form>
     </div>
-
-    <ion-button type="button"
-      class="add-muscle-btn"
-      shape="round"
-      (click)="addMuscle()"
-      color="success">
-      Add muscle
-    </ion-button>
-
-    <ion-button type="submit"
-      class="gb-form-submit-btn"
-      shape="round"
-      [disabled]="exerciseForm.invalid">
-      Create Exercise
-    </ion-button>
-  </form>
+  </ion-grid>
 </ion-content>

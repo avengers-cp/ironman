@@ -144,11 +144,11 @@ export class CreateExercisePage implements OnInit {
         '',
         Validators.required
       ],
-      equipment: [
+      description: [
         '',
         Validators.required
       ],
-      description: [
+      equipment: [
         '',
         Validators.required
       ],
