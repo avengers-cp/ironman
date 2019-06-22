@@ -1,0 +1,437 @@
+Dips - Triceps Version
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Body Only
+
+Decline EZ Bar Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Dumbbell Floor Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+EZ-Bar Skullcrusher
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    E-Z Curl Bar
+
+Triceps Pushdown - Rope Attachment
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Cable
+
+Cable One Arm Tricep Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Cable
+
+Decline Close-Grip Bench To Skull Crusher
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Seated Triceps Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Incline Barbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Close-Grip EZ-Bar Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    E-Z Curl Bar
+
+Dip Machine
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Machine
+
+Tricep Dumbbell Kickback
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Standing Bent-Over Two-Arm Dumbbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Ring Dips
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Other
+
+Parallel Bar Dip
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Other
+
+Bench Dips
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Body Only
+
+Lying Close-Grip Barbell Triceps Extension Behind The Head
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Bench Press - Powerlifting
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Cable Lying Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Cable
+
+Standing Overhead Barbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Triceps Overhead Extension with Rope
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Cable
+
+JM Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Triceps Pushdown
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Cable
+
+Decline Dumbbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Dumbbell One-Arm Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Lying Dumbbell Tricep Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Band Skull Crusher
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Bands
+
+One Arm Pronated Dumbbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+One Arm Supinated Dumbbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Reverse Triceps Bench Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Chain Handle Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Other
+
+Standing One-Arm Dumbbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Floor Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Bench Press with Chains
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Cobra Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Body Only
+
+Body Tricep Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Body Only
+
+Low Cable Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Cable
+
+Seated Bent-Over Two-Arm Dumbbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Supine Chest Throw
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Medicine Ball
+
+Cable Rope Overhead Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Cable
+
+Tate Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Close-Grip Dumbbell Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Lying Triceps Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    E-Z Curl Bar
+
+Lying Close-Grip Barbell Triceps Press To Chin
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    E-Z Curl Bar
+
+Standing Low-Pulley One-Arm Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Cable
+
+Body-Up
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Body Only
+
+Smith Machine Close-Grip Bench Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Machine
+
+Standing Bent-Over One-Arm Dumbbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Standing Bent-Over One-Arm Dumbbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Board Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Seated Bent-Over One-Arm Dumbbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Machine Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Machine
+
+Incline Push-Up Close-Grip
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Body Only
+
+One Arm Floor Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Close-Grip Push-Up off of a Dumbbell
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Body Only
+
+Cable Incline Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Cable
+
+Pin Presses
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Standing Towel Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Body Only
+
+Dumbbell Tricep Extension -Pronated Grip
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Tricep Side Stretch
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    None
+
+Triceps Stretch
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    None
+
+Overhead Triceps
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Body Only
+
+Floor Press with Chains
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Speed Band Overhead Triceps
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Bands
+
+Sled Overhead Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Other
+
+JM Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+JM Press With Bands
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Triceps Plank Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+V-Sit Dumbbell Triceps Extension
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Dumbbell
+
+Reverse Band Bench Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Barbell
+
+Suspended Triceps Press
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Other
+
+Body Triceps Press Using Flat Bench
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Other
+
+Russian Bar Dip
+  Muscle Targeted:
+    Triceps
+  Equipment Type:
+    Other

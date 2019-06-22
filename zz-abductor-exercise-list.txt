@@ -1,0 +1,137 @@
+Groiners
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    Body Only
+
+Standing Hip Circles
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    Body Only
+
+Clam
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    Body Only
+
+Band Hip Adductions
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    Bands
+
+Thigh Abductor
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    Machine
+
+Iliotibial Tract-SMR
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    Foam Roll
+
+Windmills
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    None
+
+Fire Hydrant
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    Body Only
+
+Side Leg Raises
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    Body Only
+
+Lateral Bound
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    Body Only
+
+Groin and Back Stretch
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    None
+
+Monster Walk
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    Bands
+
+Adductor
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    Foam Roll
+
+Side Lying Groin Stretch
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    None
+
+Adductor/Groin
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    None
+
+Lying Bent Leg Groin
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    Other
+
+IT Band and Glute Stretch
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    Other
+
+Lying Crossover
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    Body Only
+
+Carioca Quick Step
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    None
+
+Lateral Band Walk
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    Bands
+
+Lateral Box Jump
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    Other
+
+Lateral Cone Hops
+  Muscle Targeted:
+    Adductors
+  Equipment Type:
+    Other
+
+Hip Circle
+  Muscle Targeted:
+    Abductors
+  Equipment Type:
+    Body Only

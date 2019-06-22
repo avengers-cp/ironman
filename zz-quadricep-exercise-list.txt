@@ -1,0 +1,1313 @@
+Single-Leg Press
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Barbell Full Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Tire Flip
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Snatch
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Hang Clean
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Box Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Reverse Band Box Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Front Barbell Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Bicycling
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Rowing, Stationary
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Barbell Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Dumbbell Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Side to Side Box Shuffle
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Dumbbell Goblet Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Dumbbell Lunges
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Leg Press
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Narrow Stance Hack Squats
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Narrow Stance Leg Press
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Elliptical Trainer
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Stairmaster
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Double Leg Butt Kick
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Standing Long Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Burpee
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Barbell Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Mountain Climbers
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Bodyweight Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Trap Bar Deadlift
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Chair Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Machine Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Dumbbell Rear Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Goblet Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Kettlebells
+
+Trail Running/Walking
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Barbell Step Ups
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Smith Machine Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Split Squat with Dumbbells
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+One Leg Barbell Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Scissors Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Leg Extensions
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Barbell Hack Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Hang Clean - Below the Knees
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Jumping Jacks
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Hack Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Freehand Jump Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Weighted Sissy Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Skating
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Jog In Place
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Running, Treadmill
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Plie Dumbbell Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Split Jerk
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Dumbbell Seated Box Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Barbell Thruster
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Bicycling, Stationary
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Jogging-Treadmill
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Bodyweight Reverse Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Cable Hip Adduction
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Cable
+
+Recumbent Bike
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Walking, Treadmill
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Butt Kicks
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Wide-Stance Barbell Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Alien Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Dumbbell Step Ups
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Power Jerk
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Zercher Squats
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Lying Machine Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Jefferson Squats
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Jerk Dip Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Yoke Walk
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Rocket Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Smith Machine Leg Press
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Bodyweight Walking Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Wall Ball Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Medicine Ball
+
+Depth Jump Leap
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Overhead Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Single-Leg Leg Extension
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Pistol Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Single-Leg Leg Extension
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Pistol Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Barbell Side Split Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Side Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Walking High Knees
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Speed Squats
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Smith Single-Leg Split Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Seated Leg Press
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Kettlebell Curtsy Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Kettlebells
+
+Frankenstein Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Single Leg Butt Kick
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Cable Deadlifts
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Cable
+
+Jump Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+One-Arm Side Deadlift
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Split Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Bench Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Barbell Squat To A Bench
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Dumbbell Walking Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Front Cone Hops (or hurdle hops)
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Weighted Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Clean Pull
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Dumbbell Squat To A Bench
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+90-Degree Jump Squat Twist
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+One-Arm Overhead Kettlebell Squats
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Kettlebells
+
+Smith Machine Pistol Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Bench Sprint
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Wide-Stance Leg Press
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Backward Drag
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Alternate Leg Diagonal Bound
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Sled Push
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Squat with Plate Movers
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Suspended Split Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Intermediate Hip Flexor and Quad Stretch
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Sit Squats
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Squats - With Bands
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Bands
+
+Fast Skipping
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Kneeling Hip Flexor
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Quadriceps-SMR
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Foam Roll
+
+Front Barbell Squat To A Bench
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Iron Crosses (stretch)
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+All Fours Quad Stretch
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Quad Stretch
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+One Half Locust
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Standing Hip Flexors
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Looking At Ceiling
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Frog Hops
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Rear Leg Raises
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+On Your Side Quad Stretch
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+On-Your-Back Quad Stretch
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Standing Elevated Quad Stretch
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Box Squat with Chains
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Car Deadlift
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Squat with Bands
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Sandbag Load
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Sled Drag - Harness
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Squat Jerk
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Snatch from Blocks
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Split Clean
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Reverse Band Power Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Side Hop-Sprint
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Single-Leg Hop Progression
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Stride Jump Crossover
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Hip Flexion with Band
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Bands
+
+Side Standing Long Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    None
+
+Single-Cone Sprint Drill
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Linear Depth Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Elevated Back Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Lunge Sprint
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Single Arm Overhead Kettlebell Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Kettlebells
+
+Slow Jog
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Defensive Slide
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Square Hop
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Lateral Speed Step
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Dumbbell Overhead Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Single-Arm Dumbbell Overhead Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Single-Leg Box Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Burpee Over Barbell
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Kettlebell Sumo Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Kettlebells
+
+Barbell Reverse Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Close-Stance Dumbbell Front Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Double Under
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Jumping Jack
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Sprawl Frog Kick
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Kettlebell Side Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Kettlebells
+
+Kettlebell Thruster Progression
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Kettlebells
+
+Running Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Southpaw Sprawl
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Lunge Heel Kick
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Gorilla Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Burppe Box Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Dumbbell Squat Snatch
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Thigh Killa
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Lying Prone Quadriceps
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Conan's Wheel
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Heaving Snatch Balance
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Snatch Balance
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Rickshaw Deadlift
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Power Snatch from Blocks
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Quick Leap
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Single-Leg Lateral Hop
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Single-Leg Stride Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Star Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Leverage Deadlift
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Machine
+
+Speed Box Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Feet Jack
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Fast Kick With Arm Circles
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Football Up-Down
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Jump Lunge To Feet Jack
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Vertical Mountain Climber
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Slide Jump Shot
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+High Knee Jog
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Front-To-Back Squat With Belt
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Bosu Ball Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Exercise Ball
+
+Forward Band Walk
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Bands
+
+Barbell Squat To A Box
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Ice Skater
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Split Squat With Kettlebells
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Kettlebells
+
+Walking Lunge With Overhead Weight
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Front Squat Push Press
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Front Squat (Bodybuilder)
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Front Squat (Clean Grip)
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Single-Leg Squat To Box
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Single-Leg Skater Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Wall Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Pop Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Trap Bar Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other
+
+Dumbbell Lunge and Curl
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Dumbbell Jump Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Lateral Hop Holding Dumbbells
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Dumbbell Front Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Lateral Hop 4 Times To Sprint
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Wide-Stance Jump Squat To Close-Stance
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Barbell Front-To-Back Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Barbell
+
+Dumbbell Pistol Squat
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Dumbbell Alternating Lunge
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Dumbbell
+
+Side Lunge Touching Heel
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Jumping Knee Up Down
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Burpee Tuck Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Wall Sprawl
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Medicine Ball Ninja
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Medicine Ball
+
+Kettlebell Fire Feet
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Kettlebells
+
+Reverse Burpee
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Body Only
+
+Kettlebell Squat Clean
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Kettlebells
+
+Burpee Box Jump
+  Muscle Targeted:
+    Quadriceps
+  Equipment Type:
+    Other

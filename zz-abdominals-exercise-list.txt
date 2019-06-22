@@ -1,0 +1,665 @@
+One-Arm Medicine Ball Slam
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Medicine Ball
+
+Plank
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Standing Cable Lift
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Bottoms Up
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Weighted Suitcase Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Medicine Ball
+
+Oblique Cable Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Exercise Ball Pull-In
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Exercise Ball
+
+Cable Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Barbell Ab Rollout
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Barbell
+
+Hanging Leg Raise
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Kneeling Cable Crunch With Alternating Oblique Twists
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Ab Roller
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Other
+
+Barbell Ab Rollout - On Knees
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Barbell
+
+Weighted Crunches
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Medicine Ball
+
+Reverse Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Air Bike
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+3/4 Sit-Up
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Otis-Up
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Other
+
+Crunches
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Dumbbell Side Bend
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Dumbbell
+
+Rope Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Standing Rope Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Dead Bug
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Crunch - Hands Overhead
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Knee/Hip Raise On Parallel Bars
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Other
+
+Sledgehammer Swings
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Other
+
+Jackknife Sit-Up
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Decline Oblique Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Stomach Vacuum
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Press Sit-Up
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Barbell
+
+Bosu Ball Cable Crunch With Side Bends
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Tuck Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Pallof Press
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Flat Bench Lying Leg Raise
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Seated Flat Bench Leg Pull-In
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Exercise Ball Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Exercise Ball
+
+Russian Twist
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Oblique Crunches
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Advanced Kettlebell Windmill
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Kettlebells
+
+Barbell Rollout from Bench
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Barbell
+
+Butt-Ups
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Cable Reverse Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Standing Cable Wood Chop
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Bent-Knee Hip Raise
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Cable Russian Twists
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Ab Crunch Machine
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Machine
+
+Weighted Sit-Ups - With Bands
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Other
+
+Wind Sprints
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Smith Machine Hip Raise
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Machine
+
+Alternate Heel Touchers
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Pallof Press With Rotation
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Pallof Press With Rotation
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Suspended Reverse Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Other
+
+Flat Bench Leg Pull-In
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Cable Seated Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Frog Sit-Ups
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Kettlebell Windmill
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Kettlebells
+
+Kettlebell Figure 8
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Kettlebells
+
+Sit-Up
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Side Bridge
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Leg Pull-In
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Oblique Crunches - On The Floor
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Janda Sit-Up
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Crunch - Legs On Exercise Ball
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Side Jackknife
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Kettlebell Pass Between The Legs
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Kettlebells
+
+Seated Leg Tucks
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Scissor Kick
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Barbell Side Bend
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Barbell
+
+Toe Touchers
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Lower Back Curl
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Weighted Ball Side Bend
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Exercise Ball
+
+Bent Press
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Kettlebells
+
+Supine Two-Arm Overhead Throw
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Medicine Ball
+
+Torso Rotation
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Exercise Ball
+
+Cable Judo Flip
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Cable
+
+Seated Barbell Twist
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Barbell
+
+Seated Overhead Stretch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    None
+
+Overhead Stretch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    None
+
+Standing Lateral Stretch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    None
+
+Double Kettlebell Windmill
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Kettlebells
+
+Hip Crossover
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Plank with Twist
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Suitcase Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Seated Scissor Kick
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Cross Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Straight-Legged Hip Raise
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Partner Facing Planks With Alternating High-Five
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Partner 3-Touch Motion Russian Twist
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Medicine Ball
+
+Partner Side-To-Side Russian Twist &amp; Pass
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Medicine Ball
+
+Partner Hanging Knee Raise With Throw Down
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Partner Hanging Knee Raise With Manual Resistance
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Medicine Ball Rotational Throw
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Medicine Ball
+
+Suspended Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Bosu Ball Crunch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Exercise Ball
+
+Stability Ball Pike With Knee Tuck
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Exercise Ball
+
+Shoulder Tap
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Kettlebell 3-Point Extension
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Breakdancer
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Medicine Ball Full Twist
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Medicine Ball
+
+Supine One-Arm Overhead Throw
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Medicine Ball
+
+Partner Target Sit-Up
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Partner Lying Leg Raise With Throw Down
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Partner Sit-Up With High-Five
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Partner Lying Leg Raise With Lateral Throw Down
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Waiter's Carry
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Other
+
+Skin The Cat To Push-Up
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Other
+
+V-Sit Lying Down Ball Throw And Catch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Medicine Ball
+
+Wall Mountain Climber
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Full Moon
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only
+
+Crab Toe Touch
+  Muscle Targeted:
+    Abdominals
+  Equipment Type:
+    Body Only

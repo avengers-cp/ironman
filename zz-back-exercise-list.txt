@@ -1,0 +1,845 @@
+Standing Dumbbell Upright Row
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Dumbbell
+
+Kettlebell Sumo High Pull
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Kettlebells
+
+Dumbbell Shrug
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Dumbbell
+
+Calf-Machine Shoulder Shrug
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Machine
+
+Barbell Shrug
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Barbell
+
+Barbell Shrug Behind The Back
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Barbell
+
+Upright Cable Row
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Cable
+
+Cable Shrugs
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Cable
+
+Upright Row - With Bands
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Bands
+
+Upright Row - With Bands
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Bands
+
+Smith Machine Behind the Back Shrug
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Machine
+
+Smith Machine Upright Row
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Machine
+
+Clean Shrug
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Barbell
+
+Scapular Pull-Up
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    None
+
+Snatch Shrug
+  Muscle Targeted:
+    Traps
+  Equipment Type:
+    Barbell
+
+Weighted Pull Ups
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+V-Bar Pulldown
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Muscle Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+Shotgun Row
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Wide-Grip Pull-Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Body Only
+
+Close-Grip Front Lat Pulldown
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+V-Bar Pullup
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Body Only
+
+Wide-Grip Rear Pull-Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Body Only
+
+Rope Straight-Arm Pulldown
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Rope Climb
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+Wide-Grip Lat Pulldown
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Underhand Cable Pulldowns
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Gironda Sternum Chins
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+Side To Side Chins
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+Leverage Iso Row
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Machine
+
+Straight-Arm Pulldown
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Elevated Cable Rows
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Kneeling Single-Arm High Pulley Row
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Neutral-Grip Pull Ups
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Body Only
+
+Machine-Assisted Pull-Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Machine
+
+Full Range-Of-Motion Lat Pulldown
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Bent-Arm Barbell Pullover
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Barbell
+
+Overhead Slam
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Medicine Ball
+
+Kneeling High Pulley Row
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Overhead Slam
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Medicine Ball
+
+Kneeling High Pulley Row
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Band Assisted Pull-Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+One Arm Lat Pulldown
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Cable Incline Pushdown
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+Kipping Muscle Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+Wide-Grip Pulldown Behind The Neck
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Cable
+
+London Bridges
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+One Arm Against Wall
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    None
+
+Catch and Overhead Throw
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Medicine Ball
+
+Dynamic Back Stretch
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    None
+
+Latissimus Dorsi-SMR
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Foam Roll
+
+One Handed Hang
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+Chair Lower Back Stretch
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    None
+
+Overhead Lat
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+Side-Lying Floor Stretch
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    None
+
+Rockers (Pullover To Press) Straight Bar
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Barbell
+
+Assisted Chin-Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Bands
+
+Around The World Pull-Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+Burpee Pull-Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+Negative Pull-Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+L-Sit Chin-Up
+  Muscle Targeted:
+    Lats
+  Equipment Type:
+    Other
+
+T-Bar Row with Handle
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Bent Over One-Arm Long Bar Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+T-Bar Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Bent Over Two-Arm Long Bar Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Dumbbell Incline Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Dumbbell
+
+Bodyweight Mid Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Other
+
+Bent Over Two-Dumbbell Row With Palms In
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Dumbbell
+
+Seated Cable Rows
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Cable
+
+Bent Over Barbell Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Alternating Renegade Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Kettlebells
+
+Seated One-arm Cable Pulley Rows
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Cable
+
+Man Maker
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Dumbbell
+
+Bent Over Two-Dumbbell Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Dumbbell
+
+Middle Back Shrug
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Dumbbell
+
+Yates Row Reverse Grip
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Mixed Grip Chin
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Other
+
+One-Arm Kettlebell Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Kettlebells
+
+Inverted Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    None
+
+Pendlay Rown
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Smith Machine Bent Over Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Machine
+
+Alternating Kettlebell Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Kettlebells
+
+Lying T-Bar Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Machine
+
+Leverage High Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Machine
+
+Lying T-Bar Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Machine
+
+Leverage High Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Machine
+
+Incline Bench Pull
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Suspended Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Other
+
+Two-Arm Kettlebell Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Kettlebells
+
+Straight Bar Bench Mid Rows
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Inverted Row with Straps
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Other
+
+One Arm Chin-Up
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Other
+
+Lying Cambered Barbell Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Rhomboids-SMR
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Foam Roll
+
+Spinal Stretch
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    None
+
+Upper Back Stretch
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    None
+
+Middle Back Stretch
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    None
+
+Partner Facing Side Plank With Band Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Bands
+
+Partner Facing Feet-Elevated Side Plank With Band Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Bands
+
+Single-Arm Landmine Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Barbell Deadlift Bent Row Complex
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Sled Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Other
+
+Plate Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Partner Facing Plank With Band Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Bands
+
+Yates Row
+  Muscle Targeted:
+    Middle Back
+  Equipment Type:
+    Barbell
+
+Deficit Deadlift
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Barbell
+
+Hyperextensions With No Hyperextension Bench
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Body Only
+
+Deadlift with Bands
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Barbell
+
+Deadlift with Chains
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Barbell
+
+Rack Pull with Bands
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Barbell
+
+Rack Pulls
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Barbell
+
+Superman
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Body Only
+
+Weighted Ball Hyperextension
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Exercise Ball
+
+Seated Back Extension
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Machine
+
+Stiff Leg Barbell Good Morning
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Barbell
+
+Seated Good Mornings
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Barbell
+
+Atlas Stone Trainer
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Other
+
+Hug A Ball
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Exercise Ball
+
+Dancer's Stretch
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    None
+
+Child's Pose
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    None
+
+Pelvic Tilt Into Bridge
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    None
+
+Cat Stretch
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    None
+
+Lower Back-SMR
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Foam Roll
+
+Hug Knees To Chest
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    None
+
+Crossover Reverse Lunge
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    None
+
+Standing Pelvic Tilt
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    None
+
+Pyramid
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Exercise Ball
+
+Keg Load
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Other
+
+Reverse Band Deadlift
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Barbell
+
+Partner Supermans With Alternating High-Five
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Body Only
+
+Partner Flat-Bench Back Extension
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Other
+
+Partner Flat-Bench Back Extension With Hold
+  Muscle Targeted:
+    Lower Back
+  Equipment Type:
+    Other
+
+Lying Face Down Plate Neck Resistance
+  Muscle Targeted:
+    Neck
+  Equipment Type:
+    Other
+
+Lying Face Up Plate Neck Resistance
+  Muscle Targeted:
+    Neck
+  Equipment Type:
+    Other
+
+Seated Head Harness Neck Resistance
+  Muscle Targeted:
+    Neck
+  Equipment Type:
+    Other
+
+Isometric Neck Exercise - Sides
+  Muscle Targeted:
+    Neck
+  Equipment Type:
+    Body Only
+
+Isometric Neck Exercise - Front And Back
+  Muscle Targeted:
+    Neck
+  Equipment Type:
+    Body Only
+
+Neck Bridge Prone
+  Muscle Targeted:
+    Neck
+  Equipment Type:
+    Body Only
+
+Side Neck Stretch
+  Muscle Targeted:
+    Neck
+  Equipment Type:
+    None
+
+Chin To Chest Stretch
+  Muscle Targeted:
+    Neck
+  Equipment Type:
+    None
+
+Neck-SMR
+  Muscle Targeted:
+    Neck
+  Equipment Type:
+    Other
