@@ -10,7 +10,7 @@
 <ion-content class="create-exercise-content">
   <ion-grid fixed>
     <div class="container">
-      <form [formGroup]="exerciseForm" class="gb-form" (ngSubmit)="onSubmit()" >
+      <form [formGroup]="exerciseForm" class="gb-form" (ngSubmit)="onSubmit()" (keyup.enter)="onSubmit()">
         <ion-item class="gb-form-field name-field">
           <ion-input type="text"
             formControlName="name"

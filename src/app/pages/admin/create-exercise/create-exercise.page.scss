@@ -1,57 +1,52 @@
 .create-exercise-content {
-  .container {
+  .select {
+    --padding-start: 8px;
+    color: var(--ion-color-medium-tint);
+    max-width: 100%;
+    width: 100%;
+
+    &.equipment {
+      &:before {
+        content: 'Equipment Type';
+      }
+    }
+
+    &.main-muscle-group {
+      &:before {
+        content: 'Select a muscle group';
+      }
+    }
+
+    &.muscle-name {
+      &:before {
+        content: 'Select a muscle';
+      }
+    }
+  }
+
+  .add-muscle-btn {
+    --box-shadow: var(--ion-color-success-box-shadow);
+    --padding-end: 32px;
+    --padding-start: 32px;
+    display: table;
+    height: 48px;
     margin: 0 auto;
-    max-width: 700px;
+  }
 
-    .select {
-      --padding-start: 8px;
-      color: var(--ion-color-medium-tint);
-      max-width: 100%;
-      width: 100%;
+  .animate-on-enter {
+    animation: slide-up-in 0.2s ease;
+  }
 
-      &.equipment {
-        &:before {
-          content: 'Equipment Type';
-        }
-      }
+  .muscle-form {
+    display: flex;
+    align-items: center;
 
-      &.main-muscle-group {
-        &:before {
-          content: 'Select a muscle group';
-        }
-      }
-
-      &.muscle-name {
-        &:before {
-          content: 'Select a muscle';
-        }
-      }
+    &.deleting {
+      animation: slide-down-out 0.2s ease;
     }
 
-    .add-muscle-btn {
-      --box-shadow: var(--ion-color-success-box-shadow);
-      --padding-end: 32px;
-      --padding-start: 32px;
-      display: table;
-      height: 48px;
-      margin: 0 auto;
-    }
-
-    .animate-on-enter {
-      animation: slide-up-in 0.2s ease;
-    }
-
-    .muscle-form {
-      display: flex;
-      align-items: center;
-
-      &.deleting {
-        animation: slide-down-out 0.2s ease;
-      }
-
-      > .muscle-form-container {
-        flex-grow: 1;
-      }
+    > .muscle-form-container {
+      flex-grow: 1;
     }
   }
 }

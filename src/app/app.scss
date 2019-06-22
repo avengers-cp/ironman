@@ -9,3 +9,8 @@
 @import 'styles/button.scss';
 @import 'styles/form.scss';
 @import 'styles/toast.scss';
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+}

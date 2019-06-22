@@ -1,7 +1,7 @@
 <ion-content class="login-page">
   <img src="../../../assets/icons/gb-logo.png" class="logo"/>
 
-  <form class="gb-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()" >
+  <form class="gb-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()" (keyup.enter)="onSubmit()">
     <ion-item class="gb-form-field">
       <ion-input type="email"
         formControlName="email"
