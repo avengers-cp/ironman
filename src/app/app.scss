@@ -10,7 +10,12 @@
 @import 'styles/form.scss';
 @import 'styles/toast.scss';
 
+ion-grid {
+  height: 100%;
+}
+
 .container {
   margin: 0 auto;
   max-width: 700px;
+  height: 100%;
 }
