@@ -1,55 +1,31 @@
-export interface Muscle {
-  mainMuscleGroup: MainMuscleGroup;
-  name: AbMuscle | ArmMuscle | BackMuscle | ChestMuscle | LegMuscle | ShoulderMuscle;
-}
-
-export enum MainMuscleGroup {
+export enum Muscle {
+  ABDUCTORS = 'Abductors',
   ABS = 'Abdominals',
+  ADDUCTORS = 'Adductors',
   ARMS = 'Arms',
   BACK = 'Back',
-  CHEST = 'Chest',
-  LEGS = 'Legs',
-  SHOULDERS = 'Shoulders'
-}
-
-export enum AbMuscle {
-  LOWER = 'Lower abs',
-  MIDDLE = 'Middle abs',
-  OBLIQUES = 'Obliques',
-  UPPER = 'Upper abs'
-}
-
-export enum ArmMuscle {
   BICEP = 'Bicep',
-  FOREARM = 'Forearm',
-  TRICEP = 'Tricep'
-}
-
-export enum BackMuscle {
-  LAT = 'Lateral',
-  LOWER = 'Lower back',
-  MIDDLE = 'Middle back',
-  TRAPS = 'Traps'
-}
-
-export enum ChestMuscle {
-  LOWER = 'Lower chest',
-  MIDDLE = 'Middle chest',
-  UPPER = 'Upper chest'
-}
-
-export enum LegMuscle {
-  ABDUCTORS = 'Abductors',
-  ADDUCTORS = 'Adductors',
   CALF = 'Calf',
+  CHEST = 'Chest',
+  FOREARM = 'Forearm',
+  FRONT_DELTOID = 'Front deltoids',
   GLUTES = 'Glutes',
   HAMSTRING = 'Hamstring',
-  QUAD = 'Quad'
+  LATERAL = 'Lateral',
+  LEGS = 'Legs',
+  LOWER_ABS = 'Lower abs',
+  LOWER_BACK = 'Lower back',
+  LOWER_CHEST = 'Lower chest',
+  MIDDLE_ABS = 'Middle abs',
+  MIDDLE_BACK = 'Middle back',
+  MIDDLE_CHEST = 'Middle chest',
+  OBLIQUES = 'Obliques',
+  QUADRICEP = 'Quadricep',
+  REAR_DELTOID = 'Rear deltoids',
+  SHOULDERS = 'Shoulders',
+  SIDE_DELTOID = 'Side deltoids',
+  TRAPS = 'Traps',
+  TRICEP = 'Tricep',
+  UPPER_ABS = 'Upper abs',
+  UPPER_CHEST = 'Upper chest'
 }
-
-export enum ShoulderMuscle {
-  FRONT = 'Front deltoids',
-  REAR = 'Rear deltoids',
-  SIDE = 'Side deltoids'
-}
-

@@ -5,7 +5,7 @@ export interface ExerciseForm {
   description: string;
   equipment: EquipmentType;
   name: string;
-  targetedMuscles: Muscle[];
+  musclesTargeted: Muscle[];
 }
 
 export interface Exercise extends ExerciseForm {

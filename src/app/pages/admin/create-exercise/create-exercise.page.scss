@@ -11,15 +11,9 @@
       }
     }
 
-    &.main-muscle-group {
+    &.muscles {
       &:before {
-        content: 'Select a muscle group';
-      }
-    }
-
-    &.muscle-name {
-      &:before {
-        content: 'Select a muscle';
+        content: 'Muscles targeted';
       }
     }
   }
