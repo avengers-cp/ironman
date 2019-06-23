@@ -1,7 +1,7 @@
 import { Gender } from './gender';
 
 export interface User {
-  birthdate: Date;
+  dateOfBirth: Date;
   email: string;
   firstname: string;
   gender: Gender;
