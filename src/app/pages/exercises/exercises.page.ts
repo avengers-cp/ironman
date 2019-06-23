@@ -11,23 +11,23 @@ import { ExerciseService } from 'src/app/services/exercise.service';
 export class ExercisesPage implements OnDestroy, OnInit {
 
   public exercises: Exercise[];
-
-  private exercisesSubscription: Subscription;
+  private exercisesSub: Subscription;
 
   constructor(private exerciseService: ExerciseService) { }
 
-  public get exercises$(): Observable<Exercise[]> {
-    return this.exerciseService.exercises$;
-  }
-
   ngOnDestroy() {
-    this.exercisesSubscription.unsubscribe();
+    if (this.exercisesSub) {
+      this.exercisesSub.unsubscribe();
+    }
   }
 
   ngOnInit() {
-    this.exercisesSubscription = this.exercises$.subscribe((exercises: Exercise[]) => {
+    this.exercisesSub = this.exercises$.subscribe((exercises: Exercise[]) => {
       this.exercises = exercises;
     });
   }
 
+  private get exercises$(): Observable<Exercise[]> {
+    return this.exerciseService.exercises$;
+  }
 }

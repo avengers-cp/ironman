@@ -7,12 +7,52 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="exercises-content">
   <ion-grid fixed>
     <div class="container">
-      <div *ngFor="let exercise of exercises">
-        {{exercise.name}}
+
+      <div *ngIf="exercises">
+        <ion-card *ngFor="let exercise of exercises">
+          <ion-card-header>EXERCISE</ion-card-header>
+          <ion-card-title>{{exercise.name}}</ion-card-title>
+          <ion-card-content>
+            {{exercise.description}}
+          </ion-card-content>
+          <ion-card-content class="chips">
+            <ion-chip color="secondary" outline="true">
+              {{exercise.equipment}}
+            </ion-chip>
+            <ion-chip *ngFor="let muscle of exercise.musclesTargeted" color="tertiary" outline="true">
+              {{muscle}}
+            </ion-chip>
+          </ion-card-content>
+        </ion-card>
       </div>
+
+      <!-- Skeleton loading -->
+      <div *ngIf="!exercises">
+        <ion-card>
+          <ion-card-header>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+          </ion-card-header>
+          <ion-card-title>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+          </ion-card-title>
+          <ion-card-content>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+          </ion-card-content>
+          <ion-card-content class="skeleton-chips">
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+          </ion-card-content>
+        </ion-card>
+      </div>
+
     </div>
   </ion-grid>
 </ion-content>
