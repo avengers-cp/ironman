@@ -9,6 +9,7 @@ export enum EquipmentType {
   FOAM_ROLL = 'Foam Roll',
   KETTLEBELL = 'Kettlebell',
   MACHINE = 'Machine',
+  MEDICINE_BALL = 'Medicine Ball',
   OTHER = 'Other',
   SAND_BAG = 'Sand Bag'
 }
