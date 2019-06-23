@@ -12,7 +12,7 @@ import { Gender } from 'src/app/interfaces/gender';
   styleUrls: ['./create-account.page.scss'],
 })
 export class CreateAccountPage implements OnInit {
-  
+
   public createAccountForm: FormGroup;
   public genders: string[];
 
@@ -22,7 +22,7 @@ export class CreateAccountPage implements OnInit {
     private loadingCtrl: LoadingController,
     private navCtrl: NavController,
     private toastService: ToastService
-  ) { 
+  ) {
     this.genders = _.values(Gender);
   }
 
