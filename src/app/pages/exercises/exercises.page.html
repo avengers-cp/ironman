@@ -11,8 +11,17 @@
   <ion-grid fixed>
     <div class="container">
 
-      <div *ngIf="exercises">
-        <ion-card *ngFor="let exercise of exercises">
+      <!-- Search bar -->
+      <ion-searchbar
+        animated="true"
+        [disabled]="isLoading"
+        (ionChange)="filterExercises($event.detail.value)"
+        mode="ios">
+      </ion-searchbar>
+
+      <!-- Exercise cards -->
+      <div *ngIf="!isLoading">
+        <ion-card *ngFor="let exercise of filteredExercises" mode="ios">
           <ion-card-header>EXERCISE</ion-card-header>
           <ion-card-title>{{exercise.name}}</ion-card-title>
           <ion-card-content>
@@ -30,8 +39,8 @@
       </div>
 
       <!-- Skeleton loading -->
-      <div *ngIf="!exercises">
-        <ion-card>
+      <div *ngIf="isLoading">
+        <ion-card mode="ios">
           <ion-card-header>
             <ion-skeleton-text animated="true"></ion-skeleton-text>
           </ion-card-header>
