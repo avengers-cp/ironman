@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Exercises</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="exercises-content">
+  <ion-grid fixed>
+    <div class="container">
+
+      <!-- Search bar -->
+      <ion-searchbar
+        animated="true"
+        [disabled]="isLoading"
+        (ionChange)="filterExercises($event.detail.value)"
+        mode="ios">
+      </ion-searchbar>
+
+      <!-- Exercise cards -->
+      <div *ngIf="!isLoading">
+        <ion-card *ngFor="let exercise of filteredExercises" mode="ios">
+          <ion-card-header>EXERCISE</ion-card-header>
+          <ion-card-title>{{exercise.name}}</ion-card-title>
+          <ion-card-content>
+            {{exercise.description}}
+          </ion-card-content>
+          <ion-card-content class="chips">
+            <ion-chip color="secondary" outline="true">
+              {{exercise.equipment}}
+            </ion-chip>
+            <ion-chip *ngFor="let muscle of exercise.musclesTargeted" color="tertiary" outline="true">
+              {{muscle}}
+            </ion-chip>
+          </ion-card-content>
+        </ion-card>
+      </div>
+
+      <!-- Skeleton loading -->
+      <div *ngIf="isLoading">
+        <ion-card mode="ios">
+          <ion-card-header>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+          </ion-card-header>
+          <ion-card-title>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+          </ion-card-title>
+          <ion-card-content>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+          </ion-card-content>
+          <ion-card-content class="skeleton-chips">
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+            <ion-skeleton-text animated="true"></ion-skeleton-text>
+          </ion-card-content>
+        </ion-card>
+      </div>
+
+    </div>
+  </ion-grid>
+</ion-content>

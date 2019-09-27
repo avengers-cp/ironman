@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { AuthService } from 'src/app/services/auth.service';
 import { LoadingController, NavController } from '@ionic/angular';
+
 import { ToastService } from 'src/app/services/toast.service';
+import { UserService } from './../../services/user.service';
 
 @Component({
   selector: 'app-forgot-password',
@@ -14,11 +15,11 @@ export class ForgotPasswordPage implements OnInit {
   public forgotPasswordForm: FormGroup;
 
   constructor(
-    private authService: AuthService,
     private formbuilder: FormBuilder,
     private loadingCtrl: LoadingController,
     private navCtrl: NavController,
-    private toastService: ToastService
+    private toastService: ToastService,
+    private userService: UserService
   ) { }
 
   ngOnInit() {
@@ -36,7 +37,7 @@ export class ForgotPasswordPage implements OnInit {
       loading.present();
       const email = this.forgotPasswordForm.value.email;
       try {
-        await this.authService.sendPasswordResetEmail(email);
+        await this.userService.sendPasswordResetEmail(email);
         this.toastService.showSuccessToast('An email has been sent to you!');
         this.navCtrl.navigateRoot('/login');
         this.forgotPasswordForm.reset();

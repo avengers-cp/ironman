@@ -1,9 +1,10 @@
-import { AuthService } from './../../services/auth.service';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { ToastService } from 'src/app/services/toast.service';
-import { LoadingController } from '@ionic/angular';
 import { Router } from '@angular/router';
+import { LoadingController } from '@ionic/angular';
+
+import { ToastService } from 'src/app/services/toast.service';
+import { UserService } from './../../services/user.service';
 
 @Component({
   selector: 'app-login',
@@ -15,11 +16,11 @@ export class LoginPage implements OnInit {
   public loginForm: FormGroup;
 
   constructor(
-    private authService: AuthService,
     private formbuilder: FormBuilder,
     private loadingCtrl: LoadingController,
     private router: Router,
-    private toastService: ToastService
+    private toastService: ToastService,
+    private userService: UserService
   ) { }
 
   ngOnInit() {
@@ -40,7 +41,7 @@ export class LoginPage implements OnInit {
       loading.present();
       const { email, password } = this.loginForm.value;
       try {
-        await this.authService.login(email, password);
+        await this.userService.login(email, password);
         this.router.navigateByUrl('/tabs/tab1');
         this.loginForm.reset();
       } catch (error) {

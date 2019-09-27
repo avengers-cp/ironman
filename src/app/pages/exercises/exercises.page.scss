@@ -1,0 +1,55 @@
+.exercises-content {
+  ion-card-header {
+    padding: 0;
+    margin: 24px 24px 8px;
+
+    > ion-skeleton-text {
+      height: 14px;
+      line-height: 19px;
+      width: 65px;
+    }
+  }
+
+  ion-card-title {
+    margin: 8px 24px 24px;
+
+    > ion-skeleton-text {
+      height: 20px;
+      line-height: 24px;
+      width: 120px;
+    }
+  }
+
+  ion-card-content {
+    padding: 0;
+    margin: 24px;
+
+    &.chips {
+      margin: 20px;
+    }
+
+    &.skeleton-chips {
+      display: flex;
+
+      ion-skeleton-text {
+        height: 32px;
+        width: 70px;
+        border-radius: 32px;
+        margin: 4px;
+
+        &:last-child {
+          width: 70px;
+        }
+      }
+    }
+
+    > ion-skeleton-text {
+      height: 14px;
+      line-height: 19px;
+
+      &:last-child {
+        width: 50%;
+      }
+    }
+  }
+}

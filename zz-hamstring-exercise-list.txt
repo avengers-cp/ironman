@@ -1,0 +1,515 @@
+Romanian Deadlift With Dumbbells
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Dumbbell
+
+Clean Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Barbell Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Sumo Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Lying Leg Curls
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Machine
+
+Snatch Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Ball Leg Curl
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Exercise Ball
+
+Stiff-Legged Dumbbell Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Dumbbell
+
+Power Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Hang Snatch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Lunge Pass Through
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+One-Arm Kettlebell Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+Kettlebell One-Legged Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+Front Box Jump
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Good Morning
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Wide Stance Stiff Legs
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Front Leg Raises
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Body Only
+
+Glute Ham Raise
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Machine
+
+Band Good Morning (Pull Through)
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Bands
+
+Linear Acceleration Wall Drill
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Stiff-Legged Barbell Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Dumbbell Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Dumbbell
+
+Single Leg Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+Box Jump (Multiple Response)
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Knee Tuck Jump
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Body Only
+
+Romanian Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Romanian Deadlift with Kettlebell
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+Reverse Hyperextension
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Machine
+
+Seated Leg Curl
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Machine
+
+Band Good Morning
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Bands
+
+Band Good Morning
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Bands
+
+Leg-Up Hamstring Stretch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Sumo Deadlift with Chains
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Vertical Swing
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Dumbbell
+
+Inchworm
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Body Only
+
+Standing Leg Curl
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Machine
+
+One-Arm Kettlebell Swings
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+Prowler Sprint
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Moving Claw Series
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Smith Machine Stiff-Legged Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Machine
+
+Standing Toe Touches
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Intermediate Groin Stretch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Standing Hamstring and Calf Stretch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Lying Hamstring
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Hamstring Stretch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Smith Machine Hang Power Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Machine
+
+Hamstring-SMR
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Foam Roll
+
+Upper Back-Leg Grab
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Kettlebell Dead Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+Seated Hamstring
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Seated Floor Hamstring Stretch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+90/90 Hamstring
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Body Only
+
+Alternating Hang Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+World's Greatest Stretch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+The Straddle
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Split Squats
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Runner's Stretch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Chair Leg Extended Stretch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Kettlebell Hang Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+Double Kettlebell Alternating Hang Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+Seated Hamstring and Calf Stretch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Good Morning off Pins
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Hang Snatch - Below Knees
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Muscle Snatch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Sumo Deadlift with Bands
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Reverse Band Sumo Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Hurdle Hops
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Linear 3-Part Start Technique
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Seated Band Hamstring Curl
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Stiff-Legged Deadlift
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Suspended Leg Curl
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Open Palm Kettlebell Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+One-Arm Open Palm Kettlebell Clean
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Kettlebells
+
+Hanging Bar Good Morning
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Power Stairs
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Snatch Pull
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Split Snatch
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Barbell
+
+Box Skip
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Platform Hamstring Slides
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Other
+
+Prone Manual Hamstring
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    None
+
+Alternating Leg Swing
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Body Only
+
+Single-Leg Balance
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Body Only
+
+High Kick
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Body Only
+
+Knee To Chest
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Body Only
+
+Hip Stretch With Twist
+  Muscle Targeted:
+    Hamstrings
+  Equipment Type:
+    Body Only

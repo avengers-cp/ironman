@@ -1,0 +1,605 @@
+Wide-Grip Decline Barbell Bench Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Barbell
+
+Incline Dumbbell Press Reverse-Grip
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Wide-Grip Barbell Bench Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Barbell
+
+Decline Barbell Bench Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Barbell
+
+Incline Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Incline Dumbbell Flyes
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Cable Crossover
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Cable
+
+Neck Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Barbell
+
+Drop Push
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Barbell Incline Bench Press Medium-Grip
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Barbell
+
+Incline Push-Up Medium
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Incline Cable Chest Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Cable
+
+Cable Chest Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Cable
+
+Dumbbell Bench Press with Neutral Grip
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Leverage Incline Chest Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Machine
+
+Single-Arm Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Single-Arm Cable Crossover
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Cable
+
+Decline Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    None
+
+Hammer Grip Incline DB Bench Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Pushups (Close and Wide Hand Positions)
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Push-Ups With Feet Elevated
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Push-Ups With Feet On An Exercise Ball
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Exercise Ball
+
+Decline Dumbbell Bench Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Butterfly
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Machine
+
+One Arm Dumbbell Bench Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Leverage Chest Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Machine
+
+Incline Push-Up Wide
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Straight-Arm Dumbbell Pullover
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Isometric Wipers
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Incline Dumbbell Bench With Palms Facing In
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Clock Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Decline Smith Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Machine
+
+Cable Iron Cross
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Cable
+
+Incline Dumbbell Flyes - With A Twist
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Leverage Decline Chest Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Machine
+
+Push-Up Wide
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Smith Machine Bench Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Machine
+
+Cross Over - With Bands
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Bands
+
+Front Raise And Pullover
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Barbell
+
+Chest Push (multiple response)
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Medicine Ball
+
+Incline Push-Up Depth Jump
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Bent-Arm Dumbbell Pullover
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Standing Cable Chest Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Cable
+
+Machine Bench Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Machine
+
+Smith Machine Incline Bench Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Machine
+
+Plyo Kettlebell Pushups
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Kettlebells
+
+Close-Hands Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Around The Worlds
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Tiger-Bend Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Barbell Bench Press-Wide Grip
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Barbell
+
+Plyo Push-up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Suspended Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Flat Bench Cable Flyes
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Cable
+
+Wide-Grip Decline Barbell Pullover
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Barbell
+
+Smith Machine Decline Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Machine
+
+Isometric Chest Squeezes
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Push Up to Side Plank
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Barbell Guillotine Bench Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Barbell
+
+Side To Side Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+One-Arm Flat Bench Dumbbell Flye
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Dumbbell
+
+Extended Range One-Arm Kettlebell Floor Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Kettlebells
+
+Alternating Floor Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Kettlebells
+
+Forward Drag with Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Medicine Ball Chest Pass
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Medicine Ball
+
+Dynamic Chest Stretch
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    None
+
+Chain Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Bench Press - With Bands
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Bands
+
+Behind Head Chest Stretch
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Elbows Back
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    None
+
+Chest Stretch on Stability Ball
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Exercise Ball
+
+Chest And Front Of Shoulder Stretch
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+One-Arm Kettlebell Floor Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Kettlebells
+
+Leg-Over Floor Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Kettlebells
+
+Chest Push (single response)
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Medicine Ball
+
+Incline Push-Up Reverse Grip
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Suspended Chest Fly
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Staggered Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Medicine-Ball Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Medicine Ball
+
+Suspended Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Diamond Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Typewriter Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Clapping Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Triple Clap Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Weighted Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+One-Arm Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Bar Throw And Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Machine
+
+Decline Explosive Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Chest Push from 3 point stance
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Medicine Ball
+
+Chest Push with Run Release
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Medicine Ball
+
+Heavy Bag Thrust
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Bench Press With Short Bands
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Bands
+
+Bosu Ball Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Exercise Ball
+
+Hand Release Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Svend Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Wide-Hands Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Dive Bomber Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Weighted Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Bar Push-Up Smith Machine
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Other
+
+Burpee To Medicine Ball Press
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Medicine Ball
+
+Superman Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Body Only
+
+Feet-Elevated TRX Push-Up
+  Muscle Targeted:
+    Chest
+  Equipment Type:
+    Bands

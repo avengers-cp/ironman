@@ -1,0 +1,131 @@
+Wrist Rotations with Straight Bar
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Barbell
+
+Palms-Down Wrist Curl Over A Bench
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Barbell
+
+Palms-Up Barbell Wrist Curl Over A Bench
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Barbell
+
+Farmer's Walk
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Other
+
+Standing Palms-Up Barbell Behind The Back Wrist Curl
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Barbell
+
+Dumbbell Lying Supination
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Dumbbell
+
+Dumbbell Lying Pronation
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Dumbbell
+
+Seated Palm-Up Barbell Wrist Curl
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Barbell
+
+Palms-Up Dumbbell Wrist Curl Over A Bench
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Dumbbell
+
+Standing Olympic Plate Hand Squeeze
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Other
+
+Seated Dumbbell Palms-Down Wrist Curl
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Dumbbell
+
+Palms-Down Dumbbell Wrist Curl Over A Bench
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Dumbbell
+
+Plate Pinch
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Other
+
+Seated One-Arm Dumbbell Palms-Down Wrist Curl
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Dumbbell
+
+Bottoms-Up Clean From The Hang Position
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Kettlebells
+
+Cable Wrist Curl
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Cable
+
+Seated Dumbbell Palms-Up Wrist Curl
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Dumbbell
+
+Partner Farmer's Walk Competition
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Dumbbell
+
+Kneeling Forearm Stretch
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    None
+
+Wrist Circles
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Body Only
+
+Partner Suitcase Carry Competition
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Barbell
+
+Suitcase Dumbbell Carry
+  Muscle Targeted:
+    Forearms
+  Equipment Type:
+    Dumbbell

@@ -1,0 +1,299 @@
+Incline Hammer Curls
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Wide-Grip Standing Barbell Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Barbell
+
+Dumbbell Bicep Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Cross Body Hammer Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Close-Grip EZ Bar Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Barbell
+
+Barbell Curls Lying Against An Incline
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Barbell
+
+Reverse Barbell Preacher Curls
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    E-Z Curl Bar
+
+Preacher Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Barbell
+
+Standing One-Arm Cable Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Cable
+
+Seated Close-Grip Concentration Barbell Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Barbell
+
+Alternate Incline Dumbbell Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Dumbbell Alternate Bicep Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+One Arm Dumbbell Preacher Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Reverse Cable Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Cable
+
+Standing Concentration Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Incline Dumbbell Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Close-Grip Standing Barbell Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Barbell
+
+Preacher Hammer Dumbbell Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Alternate Hammer Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Seated Dumbbell Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Standing One-Arm Dumbbell Curl Over Incline Bench
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Standing Biceps Cable Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Cable
+
+Drag Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Barbell
+
+Machine Preacher Curls
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Machine
+
+Lying Supine Dumbbell Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Two-Arm Dumbbell Preacher Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Lying Cable Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Cable
+
+Cable Hammer Curls - Rope Attachment
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Cable
+
+Reverse Barbell Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Barbell
+
+Standing Dumbbell Reverse Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Incline Inner Biceps Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+High Cable Curls
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Cable
+
+Close-Grip EZ-Bar Curl with Band
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    E-Z Curl Bar
+
+High Cable Curls
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Cable
+
+Close-Grip EZ-Bar Curl with Band
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    E-Z Curl Bar
+
+One-Arm Plank Dumbbell Biceps Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Dumbbell Prone Incline Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Zottman Preacher Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Cable Preacher Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Cable
+
+Standing Inner-Biceps Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Seated Dumbbell Inner Biceps Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Dumbbell
+
+Reverse Plate Curls
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Other
+
+Lying Close-Grip Bar Curl On High Pulley
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Cable
+
+Standing Biceps Stretch
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Other
+
+Lying High Bench Barbell Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Barbell
+
+Seated Biceps
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Body Only
+
+Brachialis-SMR
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Foam Roll
+
+Suspended Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Other
+
+Seated Straight-Bar Curl Superset
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Barbell
+
+Hammer Plate Curl
+  Muscle Targeted:
+    Biceps
+  Equipment Type:
+    Other

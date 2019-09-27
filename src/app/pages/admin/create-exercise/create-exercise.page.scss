@@ -1,0 +1,46 @@
+.create-exercise-content {
+  .select {
+    --padding-start: 8px;
+    color: var(--ion-color-medium-tint);
+    max-width: 100%;
+    width: 100%;
+
+    &.equipment {
+      &:before {
+        content: 'Equipment Type';
+      }
+    }
+
+    &.muscles {
+      &:before {
+        content: 'Muscles targeted';
+      }
+    }
+  }
+
+  .add-muscle-btn {
+    --box-shadow: var(--ion-color-success-box-shadow);
+    --padding-end: 32px;
+    --padding-start: 32px;
+    display: table;
+    height: 48px;
+    margin: 0 auto;
+  }
+
+  .animate-on-enter {
+    animation: slide-up-in 0.2s ease;
+  }
+
+  .muscle-form {
+    display: flex;
+    align-items: center;
+
+    &.deleting {
+      animation: slide-down-out 0.2s ease;
+    }
+
+    > .muscle-form-container {
+      flex-grow: 1;
+    }
+  }
+}

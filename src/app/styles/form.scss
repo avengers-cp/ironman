@@ -1,7 +1,7 @@
 .gb-form {
   margin-top: 40px;
 
-  > .gb-form-field {
+  .gb-form-field {
     --background-focused: none;
     --border-color: white;
     --border-radius: 24px;
@@ -23,8 +23,23 @@
       }
     }
 
-    input {
+    input, textarea {
       padding-left: 8px;
+    }
+
+    ion-input, ion-textarea {
+      --placeholder-color: var(--ion-color-medium-tint);
+      --placeholder-opacity: 1;
+    }
+
+    ion-select {
+      &.ion-valid {
+        color: black !important;
+
+        &:before {
+          content: '' !important;
+        }
+      }
     }
 
   }

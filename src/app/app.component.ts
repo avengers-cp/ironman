@@ -12,7 +12,7 @@ const { SplashScreen, StatusBar } = Plugins;
 })
 export class AppComponent {
   constructor(
-    private platform: Platform,
+    private platform: Platform
   ) {
     this.initializeApp();
   }

@@ -1,0 +1,815 @@
+Side Laterals to Front Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Standing Palm-In One-Arm Dumbbell Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Clean and Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Push Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Clean and Jerk
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Standing Palms-In Dumbbell Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Standing Military Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+One-Arm Kettlebell Push Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Single Dumbbell Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Car Drivers
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Standing Alternating Dumbbell Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Snatch-Grip Behind-The-Neck Overhead Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Smith Machine Overhead Shoulder Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Machine
+
+Arnold Dumbbell Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Leverage Shoulder Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Machine
+
+Front Plate Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Dumbbell One-Arm Shoulder Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Front Two-Dumbbell Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Front Cable Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Handstand Push-Ups
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Body Only
+
+External Rotation with Cable
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Front Incline Dumbbell Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Barbell Shoulder Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Two-Arm Kettlebell Military Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Standing Bradford Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Dumbbell Rear Delt Row
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Kettlebell Turkish Get-Up (Squat style)
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Cable Internal Rotation
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Side Lateral Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Alternating Kettlebell Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+One-Arm Kettlebell Snatch
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Kettlebell Thruster
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Battling Ropes
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Bent Over Low-Pulley Side Lateral
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Low Pulley Row To Neck
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+External Rotation
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Barbell Rear Delt Row
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Seated Cable Shoulder Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+One-Arm Incline Lateral Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Cable Rope Rear-Delt Rows
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Dumbbell Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Face Pull
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Seated Bent-Over Rear Delt Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Side Wrist Pull
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    None
+
+One-Arm Kettlebell Clean and Jerk
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Standing Low-Pulley Deltoid Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Upright Barbell Row
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Seated Side Lateral Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Iron Cross
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Dumbbell Lying Rear Lateral Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Internal Rotation with Band
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Bands
+
+Straight Raises on Incline Bench
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Bent Over Dumbbell Rear Delt Raise With Head On Bench
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Lying Rear Delt Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Band Pull Apart
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Bands
+
+Bradford/Rocky Presses
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Kettlebell Turkish Get-Up (Lunge style)
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Cable Rear Delt Fly
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Reverse Machine Flyes
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Machine
+
+Anti-Gravity Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Back Flyes - With Bands
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Bands
+
+Cable Shoulder Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Machine Shoulder (Military) Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Machine
+
+Cuban Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Reverse Flyes With External Rotation
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Alternating Cable Shoulder Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Lying One-Arm Lateral Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Lateral Raise - With Bands
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Bands
+
+Standing Barbell Press Behind Neck
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Lying One-Arm Lateral Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Lateral Raise - With Bands
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Bands
+
+Standing Barbell Press Behind Neck
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Kettlebell Pirate Ships
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+See-Saw Press (Alternating Side Press)
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Dumbbell One-Arm Upright Row
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Dumbbell Scaption
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Circus Bell
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Shoulder Press - With Bands
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Bands
+
+Two-Arm Kettlebell Clean
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Double Kettlebell Push Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Dumbbell Incline Shoulder Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Barbell Front Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Smith Machine One-Arm Upright Row
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Machine
+
+Machine Lateral Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Machine
+
+Standing Front Barbell Raise Over Head
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Kettlebell Seated Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Double Kettlebell Jerk
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Backward Medicine Ball Throw
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Medicine Ball
+
+Kettlebell Arnold Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Landmine Linear Jammer
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Upward Stretch
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    None
+
+Shoulder Circles
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    None
+
+Cable Seated Lateral Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Cable
+
+Barbell Incline Shoulder Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Push Press - Behind the Neck
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Crucifix
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Shoulder Stretch
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    None
+
+Round The World Shoulder Stretch
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Elbow Circles
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    None
+
+Arm Circles
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    None
+
+Seated Front Deltoid
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Body Only
+
+Shoulder Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    None
+
+Chair Upper Body Stretch
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Kneeling Arm Drill
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    None
+
+Medicine Ball Scoop Throw
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Medicine Ball
+
+Smith Incline Shoulder Raise
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+One-Arm Kettlebell Jerk
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+One-Arm Kettlebell Military Press To The Side
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+One-Arm Kettlebell Para Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Two-Arm Kettlebell Jerk
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+One-Arm Kettlebell Split Jerk
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Jerk Balance
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Log Lift
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Return Push from Stance
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Medicine Ball
+
+Standing Two-Arm Overhead Throw
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Medicine Ball
+
+External Rotation with Band
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Bands
+
+Punches
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Body Only
+
+Dumbbell Squat To Shoulder Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Hand Stand Push-Up
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Body Only
+
+Front Dumbbell Raise Using Towel
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Plate Shoulder Circle Big To Small Rotation
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Bear Crawl Fire Feet
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Body Only
+
+Wall Shoulder Tap
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Body Only
+
+Bear Crawl Shoulder Tap
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Body Only
+
+Double Kettlebell Snatch
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+One-Arm Kettlebell Split Snatch
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Kettlebell Seesaw Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Kettlebells
+
+Rack Delivery
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Sled Overhead Backward Walk
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Sled Reverse Flye
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Axle Clean And Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Suspended Back Fly
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Other
+
+Tall Muscle Snatch
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Barbell
+
+Half-kneeling Dumbbell Shoulder Press
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell
+
+Wall Walk
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Body Only
+
+Dumbbell Clean And Jerk
+  Muscle Targeted:
+    Shoulders
+  Equipment Type:
+    Dumbbell

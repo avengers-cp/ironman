@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Create an Exercise</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="create-exercise-content">
+  <ion-grid fixed>
+    <div class="container">
+      <form [formGroup]="exerciseForm" class="gb-form" (ngSubmit)="onSubmit()" (keyup.enter)="onSubmit()">
+        <ion-item class="gb-form-field name-field">
+          <ion-input type="text"
+            formControlName="name"
+            clear-input="true"
+            placeholder="Exercise Name">
+          </ion-input>
+        </ion-item>
+
+        <ion-item class="gb-form-field">
+          <ion-textarea formControlName="description"
+            placeholder="How do you perform this exercise?"
+            auto-grow="true">
+          </ion-textarea>
+        </ion-item>
+
+        <ion-item class="gb-form-field">
+          <ion-select formControlName="equipment"
+            interface="popover"
+            class="select equipment">
+            <ion-select-option class="select-option"
+              *ngFor="let equipment of equipmentTypes"
+              value="{{equipment}}">
+              {{equipment}}
+            </ion-select-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-item class="gb-form-field">
+          <ion-select formControlName="musclesTargeted"
+            interface="popover"
+            multiple="true"
+            class="select muscles">
+            <ion-select-option class="select-option"
+              *ngFor="let muscle of muscles"
+              value="{{muscle}}">
+              {{muscle}}
+            </ion-select-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-button type="submit"
+          class="gb-form-submit-btn"
+          shape="round"
+          [disabled]="exerciseForm.invalid">
+          Create Exercise
+        </ion-button>
+      </form>
+    </div>
+  </ion-grid>
+</ion-content>

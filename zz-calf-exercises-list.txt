@@ -1,0 +1,155 @@
+Standing Dumbbell Calf Raise
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Dumbbell
+
+Seated Calf Raise
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Machine
+
+Rocking Standing Calf Raise
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Barbell
+
+Calf Press On The Leg Press Machine
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Machine
+
+Calf Press
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Machine
+
+Standing Barbell Calf Raise
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Barbell
+
+Barbell Seated Calf Raise
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Barbell
+
+Balance Board
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Other
+
+Donkey Calf Raises
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Other
+
+Smith Machine Reverse Calf Raises
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Machine
+
+Dumbbell Seated One-Leg Calf Raise
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Dumbbell
+
+Ankle Circles
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    None
+
+Peroneals-SMR
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Foam Roll
+
+Knee Circles
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Body Only
+
+Calves-SMR
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Foam Roll
+
+Standing Gastrocnemius Calf Stretch
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    None
+
+Calf Stretch Hands Against Wall
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    None
+
+Anterior Tibialis-SMR
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Other
+
+Calf Stretch Elbows Against Wall
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    None
+
+Calf Raises - With Bands
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Bands
+
+Calf Raise On A Dumbbell
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Dumbbell
+
+Standing Soleus And Achilles Stretch
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    None
+
+Seated Calf Stretch
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    None
+
+Peroneals Stretch
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Other
+
+Foot-SMR
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Other
+
+Posterior Tibialis Stretch
+  Muscle Targeted:
+    Calves
+  Equipment Type:
+    Other

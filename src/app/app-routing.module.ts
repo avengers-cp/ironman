@@ -1,3 +1,4 @@
+import { MasterAdminGuard } from './guards/master-admin.guard';
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
@@ -10,10 +11,20 @@ const routes: Routes = [
     loadChildren: './pages/login/login.module#LoginPageModule',
     ...canActivate(redirectLoggedInTo(['/tabs/tab1']))
   },
-  { 
-    path: 'forgot-password', 
-    loadChildren: './pages/forgot-password/forgot-password.module#ForgotPasswordPageModule', 
+  {
+    path: 'forgot-password',
+    loadChildren: './pages/forgot-password/forgot-password.module#ForgotPasswordPageModule',
     ...canActivate(redirectLoggedInTo(['/tabs/tab1']))
+  },
+  {
+    path: 'create-exercise',
+    loadChildren: './pages/admin/create-exercise/create-exercise.module#CreateExercisePageModule',
+    canActivate: [MasterAdminGuard]
+  },
+  {
+    path:
+    'exercises',
+    loadChildren: './pages/exercises/exercises.module#ExercisesPageModule'
   }
 ];
 
